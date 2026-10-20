@@ -1,0 +1,3 @@
+# Raw battle-background pointer candidates
+
+The upstream map declares these pointers as LZSS, but their declared compressed length exceeds the next pointer span or produces an oversized decode. The `.bin` files preserve the raw pointer spans. PNGs in `previews/unclassified/` are provisional 4bpp tile interpretations only; they are not treated as confirmed decoded assets. `pointer_candidates.csv` gives source PC/CPU addresses, pointer lengths, hashes, and candidate previews. Twenty-one additional entries point to zero-filled or invalid LZSS spans and are recorded without inventing decoded files.
