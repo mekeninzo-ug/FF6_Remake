@@ -1,0 +1,6307 @@
+[
+  {
+    "step": 0,
+    "instructions": [
+      {
+        "cpu": "C24ECB",
+        "file_offset": "024ECB",
+        "opcode": "5A",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C24ECC",
+        "file_offset": "024ECC",
+        "opcode": "08",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C24ECD",
+        "file_offset": "024ECD",
+        "opcode": "E2",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24ECF",
+        "file_offset": "024ECF",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24E54",
+        "file_offset": "024E54",
+        "opcode": "DA",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C24E55",
+        "file_offset": "024E55",
+        "opcode": "A2",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 0,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 255,
+        "x": 127,
+        "y": 0,
+        "p": 176,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E60",
+        "file_offset": "024E60",
+        "opcode": "8A",
+        "a": 255,
+        "x": 127,
+        "y": 0,
+        "p": 176,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E61",
+        "file_offset": "024E61",
+        "opcode": "9D",
+        "a": 127,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E64",
+        "file_offset": "024E64",
+        "opcode": "FA",
+        "a": 127,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E65",
+        "file_offset": "024E65",
+        "opcode": "60",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C24ED2",
+        "file_offset": "024ED2",
+        "opcode": "48",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 509
+      },
+      {
+        "cpu": "C24ED3",
+        "file_offset": "024ED3",
+        "opcode": "BD",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 508
+      },
+      {
+        "cpu": "C24ED6",
+        "file_offset": "024ED6",
+        "opcode": "C9",
+        "a": 255,
+        "x": 0,
+        "y": 0,
+        "p": 176,
+        "sp": 508
+      },
+      {
+        "cpu": "C24ED8",
+        "file_offset": "024ED8",
+        "opcode": "D0",
+        "a": 255,
+        "x": 0,
+        "y": 0,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDA",
+        "file_offset": "024EDA",
+        "opcode": "A3",
+        "a": 255,
+        "x": 0,
+        "y": 0,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDC",
+        "file_offset": "024EDC",
+        "opcode": "9D",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDF",
+        "file_offset": "024EDF",
+        "opcode": "A8",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE0",
+        "file_offset": "024EE0",
+        "opcode": "D9",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE3",
+        "file_offset": "024EE3",
+        "opcode": "F0",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EEC",
+        "file_offset": "024EEC",
+        "opcode": "68",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EED",
+        "file_offset": "024EED",
+        "opcode": "99",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 49,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF0",
+        "file_offset": "024EF0",
+        "opcode": "0A",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 49,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF1",
+        "file_offset": "024EF1",
+        "opcode": "A8",
+        "a": 254,
+        "x": 0,
+        "y": 127,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF2",
+        "file_offset": "024EF2",
+        "opcode": "20",
+        "a": 254,
+        "x": 0,
+        "y": 254,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF5",
+        "file_offset": "024EF5",
+        "opcode": "99",
+        "a": 0,
+        "x": 0,
+        "y": 254,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF8",
+        "file_offset": "024EF8",
+        "opcode": "C2",
+        "a": 0,
+        "x": 0,
+        "y": 254,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EFA",
+        "file_offset": "024EFA",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 254,
+        "p": 144,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EFD",
+        "file_offset": "024EFD",
+        "opcode": "99",
+        "a": 29,
+        "x": 0,
+        "y": 254,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F00",
+        "file_offset": "024F00",
+        "opcode": "A5",
+        "a": 29,
+        "x": 0,
+        "y": 254,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F02",
+        "file_offset": "024F02",
+        "opcode": "99",
+        "a": 3,
+        "x": 0,
+        "y": 254,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F05",
+        "file_offset": "024F05",
+        "opcode": "28",
+        "a": 3,
+        "x": 0,
+        "y": 254,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F06",
+        "file_offset": "024F06",
+        "opcode": "7A",
+        "a": 3,
+        "x": 0,
+        "y": 254,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C24F07",
+        "file_offset": "024F07",
+        "opcode": "60",
+        "a": 3,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "step": 30,
+    "instructions": [
+      {
+        "cpu": "C24ECB",
+        "file_offset": "024ECB",
+        "opcode": "5A",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C24ECC",
+        "file_offset": "024ECC",
+        "opcode": "08",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C24ECD",
+        "file_offset": "024ECD",
+        "opcode": "E2",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24ECF",
+        "file_offset": "024ECF",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24E54",
+        "file_offset": "024E54",
+        "opcode": "DA",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C24E55",
+        "file_offset": "024E55",
+        "opcode": "A2",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 0,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 127,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 127,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 127,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 127,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 126,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 126,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 126,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 126,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 122,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 122,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 122,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 122,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 124,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 124,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 124,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 124,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 123,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 123,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 123,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 123,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 119,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 119,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 119,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 119,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 121,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 121,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 121,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 121,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 120,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 120,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 120,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 120,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 116,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 116,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 116,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 116,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 118,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 118,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 118,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 118,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 117,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 117,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 117,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 117,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 113,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 113,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 113,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 113,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 115,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 115,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 115,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 115,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 114,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 114,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 114,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 114,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 110,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 110,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 110,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 110,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 112,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 112,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 112,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 112,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 111,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 111,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 111,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 111,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 107,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 107,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 107,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 107,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 109,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 109,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 109,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 109,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 108,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 108,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 108,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 108,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 104,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 104,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 104,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 104,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 106,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 106,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 106,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 106,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 105,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 105,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 105,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 105,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 101,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 101,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 101,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 101,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 103,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 103,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 103,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 103,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 102,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 102,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 102,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 102,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 98,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 98,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 98,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 98,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 100,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 100,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 100,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 100,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 99,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 99,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 99,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 99,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 98,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 98,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 98,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 98,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 255,
+        "x": 97,
+        "y": 0,
+        "p": 176,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E60",
+        "file_offset": "024E60",
+        "opcode": "8A",
+        "a": 255,
+        "x": 97,
+        "y": 0,
+        "p": 176,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E61",
+        "file_offset": "024E61",
+        "opcode": "9D",
+        "a": 97,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E64",
+        "file_offset": "024E64",
+        "opcode": "FA",
+        "a": 97,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E65",
+        "file_offset": "024E65",
+        "opcode": "60",
+        "a": 97,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C24ED2",
+        "file_offset": "024ED2",
+        "opcode": "48",
+        "a": 97,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 509
+      },
+      {
+        "cpu": "C24ED3",
+        "file_offset": "024ED3",
+        "opcode": "BD",
+        "a": 97,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 508
+      },
+      {
+        "cpu": "C24ED6",
+        "file_offset": "024ED6",
+        "opcode": "C9",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24ED8",
+        "file_offset": "024ED8",
+        "opcode": "D0",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 176,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDF",
+        "file_offset": "024EDF",
+        "opcode": "A8",
+        "a": 127,
+        "x": 0,
+        "y": 0,
+        "p": 176,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE0",
+        "file_offset": "024EE0",
+        "opcode": "D9",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE3",
+        "file_offset": "024EE3",
+        "opcode": "F0",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EEC",
+        "file_offset": "024EEC",
+        "opcode": "68",
+        "a": 127,
+        "x": 0,
+        "y": 127,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EED",
+        "file_offset": "024EED",
+        "opcode": "99",
+        "a": 97,
+        "x": 0,
+        "y": 127,
+        "p": 49,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF0",
+        "file_offset": "024EF0",
+        "opcode": "0A",
+        "a": 97,
+        "x": 0,
+        "y": 127,
+        "p": 49,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF1",
+        "file_offset": "024EF1",
+        "opcode": "A8",
+        "a": 194,
+        "x": 0,
+        "y": 127,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF2",
+        "file_offset": "024EF2",
+        "opcode": "20",
+        "a": 194,
+        "x": 0,
+        "y": 194,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF5",
+        "file_offset": "024EF5",
+        "opcode": "99",
+        "a": 30,
+        "x": 0,
+        "y": 194,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF8",
+        "file_offset": "024EF8",
+        "opcode": "C2",
+        "a": 30,
+        "x": 0,
+        "y": 194,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EFA",
+        "file_offset": "024EFA",
+        "opcode": "AD",
+        "a": 30,
+        "x": 0,
+        "y": 194,
+        "p": 144,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EFD",
+        "file_offset": "024EFD",
+        "opcode": "99",
+        "a": 7680,
+        "x": 0,
+        "y": 194,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F00",
+        "file_offset": "024F00",
+        "opcode": "A5",
+        "a": 7680,
+        "x": 0,
+        "y": 194,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F02",
+        "file_offset": "024F02",
+        "opcode": "99",
+        "a": 16387,
+        "x": 0,
+        "y": 194,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F05",
+        "file_offset": "024F05",
+        "opcode": "28",
+        "a": 16387,
+        "x": 0,
+        "y": 194,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F06",
+        "file_offset": "024F06",
+        "opcode": "7A",
+        "a": 16387,
+        "x": 0,
+        "y": 194,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C24F07",
+        "file_offset": "024F07",
+        "opcode": "60",
+        "a": 16387,
+        "x": 0,
+        "y": 0,
+        "p": 50,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "step": 99,
+    "instructions": [
+      {
+        "cpu": "C24ECB",
+        "file_offset": "024ECB",
+        "opcode": "5A",
+        "a": 0,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C24ECC",
+        "file_offset": "024ECC",
+        "opcode": "08",
+        "a": 0,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C24ECD",
+        "file_offset": "024ECD",
+        "opcode": "E2",
+        "a": 0,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24ECF",
+        "file_offset": "024ECF",
+        "opcode": "20",
+        "a": 0,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24E54",
+        "file_offset": "024E54",
+        "opcode": "DA",
+        "a": 0,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C24E55",
+        "file_offset": "024E55",
+        "opcode": "A2",
+        "a": 0,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 0,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 97,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 97,
+        "x": 127,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 97,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 97,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 96,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 96,
+        "x": 126,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 96,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 96,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 122,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 122,
+        "x": 125,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 122,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 122,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 94,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 94,
+        "x": 124,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 94,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 94,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 93,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 93,
+        "x": 123,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 93,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 93,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 119,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 119,
+        "x": 122,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 119,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 119,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 91,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 91,
+        "x": 121,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 91,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 91,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 90,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 90,
+        "x": 120,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 90,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 90,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 116,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 116,
+        "x": 119,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 116,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 116,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 88,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 88,
+        "x": 118,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 88,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 88,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 87,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 87,
+        "x": 117,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 87,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 87,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 113,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 113,
+        "x": 116,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 113,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 113,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 85,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 85,
+        "x": 115,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 85,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 85,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 84,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 84,
+        "x": 114,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 84,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 84,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 110,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 110,
+        "x": 113,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 110,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 110,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 82,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 82,
+        "x": 112,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 82,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 82,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 81,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 81,
+        "x": 111,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 81,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 81,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 107,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 107,
+        "x": 110,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 107,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 107,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 79,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 79,
+        "x": 109,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 79,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 79,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 78,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 78,
+        "x": 108,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 78,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 78,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 104,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 104,
+        "x": 107,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 104,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 104,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 76,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 76,
+        "x": 106,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 76,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 76,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 75,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 75,
+        "x": 105,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 75,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 75,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 101,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 101,
+        "x": 104,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 101,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 101,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 73,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 73,
+        "x": 103,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 73,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 73,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 72,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 72,
+        "x": 102,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 72,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 72,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 98,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 98,
+        "x": 101,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 98,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 98,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 70,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 70,
+        "x": 100,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 70,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 70,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 69,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 69,
+        "x": 99,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 69,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 69,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 95,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 95,
+        "x": 98,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 95,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 95,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 67,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 67,
+        "x": 97,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 67,
+        "x": 96,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 67,
+        "x": 96,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 66,
+        "x": 96,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 66,
+        "x": 96,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 66,
+        "x": 95,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 66,
+        "x": 95,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 92,
+        "x": 95,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 92,
+        "x": 95,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 92,
+        "x": 94,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 92,
+        "x": 94,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 64,
+        "x": 94,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 64,
+        "x": 94,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 64,
+        "x": 93,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 64,
+        "x": 93,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 63,
+        "x": 93,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 63,
+        "x": 93,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 63,
+        "x": 92,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 63,
+        "x": 92,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 89,
+        "x": 92,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 89,
+        "x": 92,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 89,
+        "x": 91,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 89,
+        "x": 91,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 61,
+        "x": 91,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 61,
+        "x": 91,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 61,
+        "x": 90,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 61,
+        "x": 90,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 60,
+        "x": 90,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 60,
+        "x": 90,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 60,
+        "x": 89,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 60,
+        "x": 89,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 86,
+        "x": 89,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 86,
+        "x": 89,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 86,
+        "x": 88,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 86,
+        "x": 88,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 58,
+        "x": 88,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 58,
+        "x": 88,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 58,
+        "x": 87,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 58,
+        "x": 87,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 57,
+        "x": 87,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 57,
+        "x": 87,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 57,
+        "x": 86,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 57,
+        "x": 86,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 83,
+        "x": 86,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 83,
+        "x": 86,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 83,
+        "x": 85,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 83,
+        "x": 85,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 55,
+        "x": 85,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 55,
+        "x": 85,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 55,
+        "x": 84,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 55,
+        "x": 84,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 54,
+        "x": 84,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 54,
+        "x": 84,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 54,
+        "x": 83,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 54,
+        "x": 83,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 80,
+        "x": 83,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 80,
+        "x": 83,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 80,
+        "x": 82,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 80,
+        "x": 82,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 52,
+        "x": 82,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 52,
+        "x": 82,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 52,
+        "x": 81,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 52,
+        "x": 81,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 51,
+        "x": 81,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 51,
+        "x": 81,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 51,
+        "x": 80,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 51,
+        "x": 80,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 77,
+        "x": 80,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 77,
+        "x": 80,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 77,
+        "x": 79,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 77,
+        "x": 79,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 49,
+        "x": 79,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 49,
+        "x": 79,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 49,
+        "x": 78,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 49,
+        "x": 78,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 48,
+        "x": 78,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 48,
+        "x": 78,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 48,
+        "x": 77,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 48,
+        "x": 77,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 74,
+        "x": 77,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 74,
+        "x": 77,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 74,
+        "x": 76,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 74,
+        "x": 76,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 46,
+        "x": 76,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 46,
+        "x": 76,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 46,
+        "x": 75,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 46,
+        "x": 75,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 45,
+        "x": 75,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 45,
+        "x": 75,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 45,
+        "x": 74,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 45,
+        "x": 74,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 71,
+        "x": 74,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 71,
+        "x": 74,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 71,
+        "x": 73,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 71,
+        "x": 73,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 43,
+        "x": 73,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 43,
+        "x": 73,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 43,
+        "x": 72,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 43,
+        "x": 72,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 42,
+        "x": 72,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 42,
+        "x": 72,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 42,
+        "x": 71,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 42,
+        "x": 71,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 68,
+        "x": 71,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 68,
+        "x": 71,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 68,
+        "x": 70,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 68,
+        "x": 70,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 40,
+        "x": 70,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 40,
+        "x": 70,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 40,
+        "x": 69,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 40,
+        "x": 69,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 39,
+        "x": 69,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 39,
+        "x": 69,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 39,
+        "x": 68,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 39,
+        "x": 68,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 65,
+        "x": 68,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 65,
+        "x": 68,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 65,
+        "x": 67,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 65,
+        "x": 67,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 37,
+        "x": 67,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 37,
+        "x": 67,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 37,
+        "x": 66,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 37,
+        "x": 66,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 36,
+        "x": 66,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 36,
+        "x": 66,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 36,
+        "x": 65,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 36,
+        "x": 65,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 62,
+        "x": 65,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 62,
+        "x": 65,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 62,
+        "x": 64,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 62,
+        "x": 64,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 34,
+        "x": 64,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 34,
+        "x": 64,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 34,
+        "x": 63,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 34,
+        "x": 63,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 33,
+        "x": 63,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 33,
+        "x": 63,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 33,
+        "x": 62,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 33,
+        "x": 62,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 59,
+        "x": 62,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 59,
+        "x": 62,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 59,
+        "x": 61,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 59,
+        "x": 61,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 31,
+        "x": 61,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 31,
+        "x": 61,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 31,
+        "x": 60,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 31,
+        "x": 60,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 30,
+        "x": 60,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 30,
+        "x": 60,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 30,
+        "x": 59,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 30,
+        "x": 59,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 56,
+        "x": 59,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 56,
+        "x": 59,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 56,
+        "x": 58,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 56,
+        "x": 58,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 58,
+        "x": 58,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 58,
+        "x": 58,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 58,
+        "x": 57,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 58,
+        "x": 57,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 57,
+        "x": 57,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 57,
+        "x": 57,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 57,
+        "x": 56,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 57,
+        "x": 56,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 53,
+        "x": 56,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 53,
+        "x": 56,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 53,
+        "x": 55,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 53,
+        "x": 55,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 55,
+        "x": 55,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 55,
+        "x": 55,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 55,
+        "x": 54,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 55,
+        "x": 54,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 54,
+        "x": 54,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 54,
+        "x": 54,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 54,
+        "x": 53,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 54,
+        "x": 53,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 50,
+        "x": 53,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 50,
+        "x": 53,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 50,
+        "x": 52,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 50,
+        "x": 52,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 52,
+        "x": 52,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 52,
+        "x": 52,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 52,
+        "x": 51,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 52,
+        "x": 51,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 51,
+        "x": 51,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 51,
+        "x": 51,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 51,
+        "x": 50,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 51,
+        "x": 50,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 47,
+        "x": 50,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 47,
+        "x": 50,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 47,
+        "x": 49,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 47,
+        "x": 49,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 49,
+        "x": 49,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 49,
+        "x": 49,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 49,
+        "x": 48,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 49,
+        "x": 48,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 48,
+        "x": 48,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 48,
+        "x": 48,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 48,
+        "x": 47,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 48,
+        "x": 47,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 44,
+        "x": 47,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 44,
+        "x": 47,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 44,
+        "x": 46,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 44,
+        "x": 46,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 46,
+        "x": 46,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 46,
+        "x": 46,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 46,
+        "x": 45,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 46,
+        "x": 45,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 45,
+        "x": 45,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 45,
+        "x": 45,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 45,
+        "x": 44,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 45,
+        "x": 44,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 41,
+        "x": 44,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 41,
+        "x": 44,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 41,
+        "x": 43,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 41,
+        "x": 43,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 43,
+        "x": 43,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 43,
+        "x": 43,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 43,
+        "x": 42,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 43,
+        "x": 42,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 42,
+        "x": 42,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 42,
+        "x": 42,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 42,
+        "x": 41,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 42,
+        "x": 41,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 38,
+        "x": 41,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 38,
+        "x": 41,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 38,
+        "x": 40,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 38,
+        "x": 40,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 40,
+        "x": 40,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 40,
+        "x": 40,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 40,
+        "x": 39,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 40,
+        "x": 39,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 39,
+        "x": 39,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 39,
+        "x": 39,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 39,
+        "x": 38,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 39,
+        "x": 38,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 35,
+        "x": 38,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 35,
+        "x": 38,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 35,
+        "x": 37,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 35,
+        "x": 37,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 37,
+        "x": 37,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 37,
+        "x": 37,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 37,
+        "x": 36,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 37,
+        "x": 36,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 36,
+        "x": 36,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 36,
+        "x": 36,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 36,
+        "x": 35,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 36,
+        "x": 35,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 32,
+        "x": 35,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 32,
+        "x": 35,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 32,
+        "x": 34,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 32,
+        "x": 34,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 34,
+        "x": 34,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 34,
+        "x": 34,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 34,
+        "x": 33,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 34,
+        "x": 33,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 33,
+        "x": 33,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 33,
+        "x": 33,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 33,
+        "x": 32,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 33,
+        "x": 32,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 29,
+        "x": 32,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 29,
+        "x": 32,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 29,
+        "x": 31,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 29,
+        "x": 31,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 31,
+        "x": 31,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 31,
+        "x": 31,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 31,
+        "x": 30,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 31,
+        "x": 30,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 30,
+        "x": 30,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 30,
+        "x": 30,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 30,
+        "x": 29,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 30,
+        "x": 29,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 29,
+        "x": 29,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5C",
+        "file_offset": "024E5C",
+        "opcode": "CA",
+        "a": 29,
+        "x": 29,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5D",
+        "file_offset": "024E5D",
+        "opcode": "10",
+        "a": 29,
+        "x": 28,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E57",
+        "file_offset": "024E57",
+        "opcode": "BD",
+        "a": 29,
+        "x": 28,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E5A",
+        "file_offset": "024E5A",
+        "opcode": "30",
+        "a": 255,
+        "x": 28,
+        "y": 0,
+        "p": 176,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E60",
+        "file_offset": "024E60",
+        "opcode": "8A",
+        "a": 255,
+        "x": 28,
+        "y": 0,
+        "p": 176,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E61",
+        "file_offset": "024E61",
+        "opcode": "9D",
+        "a": 28,
+        "x": 28,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E64",
+        "file_offset": "024E64",
+        "opcode": "FA",
+        "a": 28,
+        "x": 28,
+        "y": 0,
+        "p": 48,
+        "sp": 506
+      },
+      {
+        "cpu": "C24E65",
+        "file_offset": "024E65",
+        "opcode": "60",
+        "a": 28,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C24ED2",
+        "file_offset": "024ED2",
+        "opcode": "48",
+        "a": 28,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24ED3",
+        "file_offset": "024ED3",
+        "opcode": "BD",
+        "a": 28,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24ED6",
+        "file_offset": "024ED6",
+        "opcode": "C9",
+        "a": 118,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24ED8",
+        "file_offset": "024ED8",
+        "opcode": "D0",
+        "a": 118,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDF",
+        "file_offset": "024EDF",
+        "opcode": "A8",
+        "a": 118,
+        "x": 18,
+        "y": 0,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE0",
+        "file_offset": "024EE0",
+        "opcode": "D9",
+        "a": 118,
+        "x": 18,
+        "y": 118,
+        "p": 48,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE3",
+        "file_offset": "024EE3",
+        "opcode": "F0",
+        "a": 118,
+        "x": 18,
+        "y": 118,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE5",
+        "file_offset": "024EE5",
+        "opcode": "B9",
+        "a": 118,
+        "x": 18,
+        "y": 118,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE8",
+        "file_offset": "024EE8",
+        "opcode": "30",
+        "a": 88,
+        "x": 18,
+        "y": 118,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EEA",
+        "file_offset": "024EEA",
+        "opcode": "80",
+        "a": 88,
+        "x": 18,
+        "y": 118,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDF",
+        "file_offset": "024EDF",
+        "opcode": "A8",
+        "a": 88,
+        "x": 18,
+        "y": 118,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE0",
+        "file_offset": "024EE0",
+        "opcode": "D9",
+        "a": 88,
+        "x": 18,
+        "y": 88,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE3",
+        "file_offset": "024EE3",
+        "opcode": "F0",
+        "a": 88,
+        "x": 18,
+        "y": 88,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE5",
+        "file_offset": "024EE5",
+        "opcode": "B9",
+        "a": 88,
+        "x": 18,
+        "y": 88,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE8",
+        "file_offset": "024EE8",
+        "opcode": "30",
+        "a": 58,
+        "x": 18,
+        "y": 88,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EEA",
+        "file_offset": "024EEA",
+        "opcode": "80",
+        "a": 58,
+        "x": 18,
+        "y": 88,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EDF",
+        "file_offset": "024EDF",
+        "opcode": "A8",
+        "a": 58,
+        "x": 18,
+        "y": 88,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE0",
+        "file_offset": "024EE0",
+        "opcode": "D9",
+        "a": 58,
+        "x": 18,
+        "y": 58,
+        "p": 49,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EE3",
+        "file_offset": "024EE3",
+        "opcode": "F0",
+        "a": 58,
+        "x": 18,
+        "y": 58,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EEC",
+        "file_offset": "024EEC",
+        "opcode": "68",
+        "a": 58,
+        "x": 18,
+        "y": 58,
+        "p": 51,
+        "sp": 508
+      },
+      {
+        "cpu": "C24EED",
+        "file_offset": "024EED",
+        "opcode": "99",
+        "a": 28,
+        "x": 18,
+        "y": 58,
+        "p": 49,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF0",
+        "file_offset": "024EF0",
+        "opcode": "0A",
+        "a": 28,
+        "x": 18,
+        "y": 58,
+        "p": 49,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF1",
+        "file_offset": "024EF1",
+        "opcode": "A8",
+        "a": 56,
+        "x": 18,
+        "y": 58,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF2",
+        "file_offset": "024EF2",
+        "opcode": "20",
+        "a": 56,
+        "x": 18,
+        "y": 56,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF5",
+        "file_offset": "024EF5",
+        "opcode": "99",
+        "a": 3,
+        "x": 18,
+        "y": 56,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EF8",
+        "file_offset": "024EF8",
+        "opcode": "C2",
+        "a": 3,
+        "x": 18,
+        "y": 56,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EFA",
+        "file_offset": "024EFA",
+        "opcode": "AD",
+        "a": 3,
+        "x": 18,
+        "y": 56,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24EFD",
+        "file_offset": "024EFD",
+        "opcode": "99",
+        "a": 25344,
+        "x": 18,
+        "y": 56,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F00",
+        "file_offset": "024F00",
+        "opcode": "A5",
+        "a": 25344,
+        "x": 18,
+        "y": 56,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F02",
+        "file_offset": "024F02",
+        "opcode": "99",
+        "a": 11,
+        "x": 18,
+        "y": 56,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F05",
+        "file_offset": "024F05",
+        "opcode": "28",
+        "a": 11,
+        "x": 18,
+        "y": 56,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C24F06",
+        "file_offset": "024F06",
+        "opcode": "7A",
+        "a": 11,
+        "x": 18,
+        "y": 56,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C24F07",
+        "file_offset": "024F07",
+        "opcode": "60",
+        "a": 11,
+        "x": 18,
+        "y": 0,
+        "p": 50,
+        "sp": 511
+      }
+    ]
+  }
+]

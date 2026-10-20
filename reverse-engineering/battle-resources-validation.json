@@ -1,0 +1,8 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "casting_cases": 810,
+  "payment_cases": 16384,
+  "target_instructions": 207035,
+  "reference_kind": "actual target casting gate and cached MP payment; graphics queue/setup/copy interfaces intercepted; no complete attack execution",
+  "result": "pass"
+}

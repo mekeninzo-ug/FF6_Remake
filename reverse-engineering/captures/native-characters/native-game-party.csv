@@ -1,0 +1,7 @@
+state,slot,property,level,hp,mp,exp
+new,0,0,3,63,27,96
+new,14,32,1,68,0,0
+new,15,33,1,70,0,0
+restored,0,0,3,17,9,96
+restored,14,32,1,29,0,0
+restored,15,33,1,70,0,0

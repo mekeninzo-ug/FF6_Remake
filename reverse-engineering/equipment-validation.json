@@ -1,0 +1,8 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "equipment_cases": 3080,
+  "target_instructions_executed": 3870629,
+  "native_party_rows": 3,
+  "reference_kind": "bounded execution of actual target C2/0E77 equipment routine; no complete battle/emulator capture",
+  "result": "pass"
+}

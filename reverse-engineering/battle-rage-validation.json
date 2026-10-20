@@ -1,0 +1,7 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "cases": 6144,
+  "target_instructions": 258048,
+  "reference_kind": "actual target LoadRageProp with all 384 records and existing actor traits; no hooks; pending status words not committed",
+  "result": "pass"
+}

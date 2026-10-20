@@ -1,0 +1,9 @@
+frame,scene,render_map,x,y,opening_phase,dialogue_line,gil
+00-title,Title,19,38,58,0,,0
+01-lore,Intro,23,18,25,0,,0
+02-lore,Intro,20,38,54,0,,0
+03-lore,Intro,244,7,27,0,,0
+04-lore,Intro,18,11,7,0,,0
+05-biggs,Field,18,11,7,1,0,0
+06-wedge,Field,19,38,50,2,0,3000
+07-player-control,Field,19,38,49,3,,3000

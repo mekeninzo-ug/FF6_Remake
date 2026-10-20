@@ -1,0 +1,27 @@
+{
+  "comparison": "native Rust renderer versus independent Python asset renderer",
+  "executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "state_trace_sha256": "B960635687EA02E67504A8BF5AC4AED3A91925D61FBC587E54FC7AC5C2A7629B",
+  "native_frame_sha256": "15674118108058B8F2FC9534579D931C9C7E92FB170EE27B351D44D4EEB5BEA9",
+  "map_manifest_sha256": "BAAC26657020A60BD3FD8FF7CC4614AD5B8AC4F25D92B8938C9D89F1F3C9434A",
+  "map_id": 19,
+  "position": [
+    38,
+    49
+  ],
+  "resolution": [
+    256,
+    224
+  ],
+  "excluded_actor_rectangle": [
+    120,
+    74,
+    152,
+    112
+  ],
+  "different_pixels_outside_actor": 0,
+  "actor_pixels_different_from_background": 715,
+  "opening_states_checked": 8,
+  "emulator_reference": false,
+  "limitations": "Does not establish original PPU priority, event timing, actor fidelity or game-wide behavior."
+}

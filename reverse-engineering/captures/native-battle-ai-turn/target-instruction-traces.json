@@ -1,0 +1,7667 @@
+[
+  {
+    "case": 0,
+    "instructions": [
+      {
+        "cpu": "C21A2F",
+        "file_offset": "021A2F",
+        "opcode": "DA",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C21A30",
+        "file_offset": "021A30",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A31",
+        "file_offset": "021A31",
+        "opcode": "A5",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A33",
+        "file_offset": "021A33",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A35",
+        "file_offset": "021A35",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A37",
+        "file_offset": "021A37",
+        "opcode": "E2",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A39",
+        "file_offset": "021A39",
+        "opcode": "64",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3B",
+        "file_offset": "021A3B",
+        "opcode": "86",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3D",
+        "file_offset": "021A3D",
+        "opcode": "20",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21AAF",
+        "file_offset": "021AAF",
+        "opcode": "AD",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB2",
+        "file_offset": "021AB2",
+        "opcode": "85",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 61422,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 61422,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABF",
+        "file_offset": "021ABF",
+        "opcode": "A5",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC1",
+        "file_offset": "021AC1",
+        "opcode": "C5",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC3",
+        "file_offset": "021AC3",
+        "opcode": "D0",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 240,
+        "x": 0,
+        "y": 0,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 4,
+        "x": 0,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 4,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 4,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 3,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 2,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B22",
+        "file_offset": "021B22",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A80",
+        "file_offset": "021A80",
+        "opcode": "A9",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A82",
+        "file_offset": "021A82",
+        "opcode": "20",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C24B65",
+        "file_offset": "024B65",
+        "opcode": "DA",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 503
+      },
+      {
+        "cpu": "C24B66",
+        "file_offset": "024B66",
+        "opcode": "08",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B67",
+        "file_offset": "024B67",
+        "opcode": "E2",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B69",
+        "file_offset": "024B69",
+        "opcode": "EB",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6A",
+        "file_offset": "024B6A",
+        "opcode": "48",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6B",
+        "file_offset": "024B6B",
+        "opcode": "E6",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6D",
+        "file_offset": "024B6D",
+        "opcode": "A6",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6F",
+        "file_offset": "024B6F",
+        "opcode": "BF",
+        "a": 768,
+        "x": 1,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B73",
+        "file_offset": "024B73",
+        "opcode": "20",
+        "a": 950,
+        "x": 1,
+        "y": 12,
+        "p": 176,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B76",
+        "file_offset": "024B76",
+        "opcode": "68",
+        "a": 546,
+        "x": 1,
+        "y": 12,
+        "p": 176,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B77",
+        "file_offset": "024B77",
+        "opcode": "EB",
+        "a": 512,
+        "x": 1,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B78",
+        "file_offset": "024B78",
+        "opcode": "28",
+        "a": 2,
+        "x": 1,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B79",
+        "file_offset": "024B79",
+        "opcode": "FA",
+        "a": 2,
+        "x": 1,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B7A",
+        "file_offset": "024B7A",
+        "opcode": "60",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21A85",
+        "file_offset": "021A85",
+        "opcode": "AA",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A86",
+        "file_offset": "021A86",
+        "opcode": "BD",
+        "a": 2,
+        "x": 2,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A89",
+        "file_offset": "021A89",
+        "opcode": "C9",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A8B",
+        "file_offset": "021A8B",
+        "opcode": "D0",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B25",
+        "file_offset": "021B25",
+        "opcode": "20",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21DBF",
+        "file_offset": "021DBF",
+        "opcode": "DA",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21DC0",
+        "file_offset": "021DC0",
+        "opcode": "48",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC1",
+        "file_offset": "021DC1",
+        "opcode": "EB",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC2",
+        "file_offset": "021DC2",
+        "opcode": "68",
+        "a": 61184,
+        "x": 2,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC3",
+        "file_offset": "021DC3",
+        "opcode": "A2",
+        "a": 61423,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61423,
+        "x": 10,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61423,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD1",
+        "file_offset": "021DD1",
+        "opcode": "CA",
+        "a": 61423,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD2",
+        "file_offset": "021DD2",
+        "opcode": "10",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 49,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCB",
+        "file_offset": "021DCB",
+        "opcode": "BF",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 49,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCF",
+        "file_offset": "021DCF",
+        "opcode": "80",
+        "a": 61184,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD6",
+        "file_offset": "021DD6",
+        "opcode": "FA",
+        "a": 61184,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD7",
+        "file_offset": "021DD7",
+        "opcode": "60",
+        "a": 61184,
+        "x": 2,
+        "y": 12,
+        "p": 49,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B28",
+        "file_offset": "021B28",
+        "opcode": "BB",
+        "a": 61184,
+        "x": 2,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B29",
+        "file_offset": "021B29",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2B",
+        "file_offset": "021B2B",
+        "opcode": "48",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2C",
+        "file_offset": "021B2C",
+        "opcode": "A5",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B2E",
+        "file_offset": "021B2E",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B30",
+        "file_offset": "021B30",
+        "opcode": "BD",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B33",
+        "file_offset": "021B33",
+        "opcode": "89",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B36",
+        "file_offset": "021B36",
+        "opcode": "F0",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3A",
+        "file_offset": "021B3A",
+        "opcode": "68",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3B",
+        "file_offset": "021B3B",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C203B9",
+        "file_offset": "0203B9",
+        "opcode": "08",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C203BA",
+        "file_offset": "0203BA",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BC",
+        "file_offset": "0203BC",
+        "opcode": "C9",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BF",
+        "file_offset": "0203BF",
+        "opcode": "D0",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C4",
+        "file_offset": "0203C4",
+        "opcode": "28",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C5",
+        "file_offset": "0203C5",
+        "opcode": "60",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3E",
+        "file_offset": "021B3E",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B41",
+        "file_offset": "021B41",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B44",
+        "file_offset": "021B44",
+        "opcode": "4C",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 61184,
+        "x": 4,
+        "y": 12,
+        "p": 1,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65518,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65518,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 255,
+        "x": 4,
+        "y": 4,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 15,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 1,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 1,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 1,
+        "x": 1,
+        "y": 5,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 15,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 30,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7B",
+        "file_offset": "021A7B",
+        "opcode": "A9",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7D",
+        "file_offset": "021A7D",
+        "opcode": "85",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7F",
+        "file_offset": "021A7F",
+        "opcode": "60",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A40",
+        "file_offset": "021A40",
+        "opcode": "28",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A41",
+        "file_offset": "021A41",
+        "opcode": "FA",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 255,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 100,
+    "instructions": [
+      {
+        "cpu": "C21A2F",
+        "file_offset": "021A2F",
+        "opcode": "DA",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C21A30",
+        "file_offset": "021A30",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A31",
+        "file_offset": "021A31",
+        "opcode": "A5",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A33",
+        "file_offset": "021A33",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A35",
+        "file_offset": "021A35",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A37",
+        "file_offset": "021A37",
+        "opcode": "E2",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A39",
+        "file_offset": "021A39",
+        "opcode": "64",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3B",
+        "file_offset": "021A3B",
+        "opcode": "86",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3D",
+        "file_offset": "021A3D",
+        "opcode": "20",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21AAF",
+        "file_offset": "021AAF",
+        "opcode": "AD",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB2",
+        "file_offset": "021AB2",
+        "opcode": "85",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 61422,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 61422,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABF",
+        "file_offset": "021ABF",
+        "opcode": "A5",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC1",
+        "file_offset": "021AC1",
+        "opcode": "C5",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC3",
+        "file_offset": "021AC3",
+        "opcode": "D0",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 240,
+        "x": 0,
+        "y": 0,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 4,
+        "x": 0,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 4,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 4,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 3,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 2,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B22",
+        "file_offset": "021B22",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A80",
+        "file_offset": "021A80",
+        "opcode": "A9",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A82",
+        "file_offset": "021A82",
+        "opcode": "20",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C24B65",
+        "file_offset": "024B65",
+        "opcode": "DA",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 503
+      },
+      {
+        "cpu": "C24B66",
+        "file_offset": "024B66",
+        "opcode": "08",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B67",
+        "file_offset": "024B67",
+        "opcode": "E2",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B69",
+        "file_offset": "024B69",
+        "opcode": "EB",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6A",
+        "file_offset": "024B6A",
+        "opcode": "48",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6B",
+        "file_offset": "024B6B",
+        "opcode": "E6",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6D",
+        "file_offset": "024B6D",
+        "opcode": "A6",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6F",
+        "file_offset": "024B6F",
+        "opcode": "BF",
+        "a": 768,
+        "x": 101,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B73",
+        "file_offset": "024B73",
+        "opcode": "20",
+        "a": 812,
+        "x": 101,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B76",
+        "file_offset": "024B76",
+        "opcode": "68",
+        "a": 132,
+        "x": 101,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B77",
+        "file_offset": "024B77",
+        "opcode": "EB",
+        "a": 0,
+        "x": 101,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B78",
+        "file_offset": "024B78",
+        "opcode": "28",
+        "a": 0,
+        "x": 101,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B79",
+        "file_offset": "024B79",
+        "opcode": "FA",
+        "a": 0,
+        "x": 101,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B7A",
+        "file_offset": "024B7A",
+        "opcode": "60",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21A85",
+        "file_offset": "021A85",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A86",
+        "file_offset": "021A86",
+        "opcode": "BD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A89",
+        "file_offset": "021A89",
+        "opcode": "C9",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A8B",
+        "file_offset": "021A8B",
+        "opcode": "D0",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B25",
+        "file_offset": "021B25",
+        "opcode": "20",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21DBF",
+        "file_offset": "021DBF",
+        "opcode": "DA",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21DC0",
+        "file_offset": "021DC0",
+        "opcode": "48",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC1",
+        "file_offset": "021DC1",
+        "opcode": "EB",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC2",
+        "file_offset": "021DC2",
+        "opcode": "68",
+        "a": 60928,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC3",
+        "file_offset": "021DC3",
+        "opcode": "A2",
+        "a": 61166,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61166,
+        "x": 10,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61166,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD1",
+        "file_offset": "021DD1",
+        "opcode": "CA",
+        "a": 61166,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD2",
+        "file_offset": "021DD2",
+        "opcode": "10",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCB",
+        "file_offset": "021DCB",
+        "opcode": "BF",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCF",
+        "file_offset": "021DCF",
+        "opcode": "80",
+        "a": 60928,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD6",
+        "file_offset": "021DD6",
+        "opcode": "FA",
+        "a": 60928,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD7",
+        "file_offset": "021DD7",
+        "opcode": "60",
+        "a": 60928,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B28",
+        "file_offset": "021B28",
+        "opcode": "BB",
+        "a": 60928,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B29",
+        "file_offset": "021B29",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2B",
+        "file_offset": "021B2B",
+        "opcode": "48",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2C",
+        "file_offset": "021B2C",
+        "opcode": "A5",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B2E",
+        "file_offset": "021B2E",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B30",
+        "file_offset": "021B30",
+        "opcode": "BD",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B33",
+        "file_offset": "021B33",
+        "opcode": "89",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B36",
+        "file_offset": "021B36",
+        "opcode": "F0",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3A",
+        "file_offset": "021B3A",
+        "opcode": "68",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3B",
+        "file_offset": "021B3B",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C203B9",
+        "file_offset": "0203B9",
+        "opcode": "08",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C203BA",
+        "file_offset": "0203BA",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BC",
+        "file_offset": "0203BC",
+        "opcode": "C9",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BF",
+        "file_offset": "0203BF",
+        "opcode": "D0",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C4",
+        "file_offset": "0203C4",
+        "opcode": "28",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C5",
+        "file_offset": "0203C5",
+        "opcode": "60",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3E",
+        "file_offset": "021B3E",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B41",
+        "file_offset": "021B41",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B44",
+        "file_offset": "021B44",
+        "opcode": "4C",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 60928,
+        "x": 4,
+        "y": 12,
+        "p": 1,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65518,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65518,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 255,
+        "x": 4,
+        "y": 4,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 15,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 1,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 1,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 1,
+        "x": 1,
+        "y": 5,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 15,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 30,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7B",
+        "file_offset": "021A7B",
+        "opcode": "A9",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7D",
+        "file_offset": "021A7D",
+        "opcode": "85",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7F",
+        "file_offset": "021A7F",
+        "opcode": "60",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A40",
+        "file_offset": "021A40",
+        "opcode": "28",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A41",
+        "file_offset": "021A41",
+        "opcode": "FA",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 255,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 600,
+    "instructions": [
+      {
+        "cpu": "C21A2F",
+        "file_offset": "021A2F",
+        "opcode": "DA",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C21A30",
+        "file_offset": "021A30",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A31",
+        "file_offset": "021A31",
+        "opcode": "A5",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A33",
+        "file_offset": "021A33",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A35",
+        "file_offset": "021A35",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A37",
+        "file_offset": "021A37",
+        "opcode": "E2",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A39",
+        "file_offset": "021A39",
+        "opcode": "64",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3B",
+        "file_offset": "021A3B",
+        "opcode": "86",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3D",
+        "file_offset": "021A3D",
+        "opcode": "20",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21AAF",
+        "file_offset": "021AAF",
+        "opcode": "AD",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB2",
+        "file_offset": "021AB2",
+        "opcode": "85",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 61422,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 61422,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABF",
+        "file_offset": "021ABF",
+        "opcode": "A5",
+        "a": 61168,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC1",
+        "file_offset": "021AC1",
+        "opcode": "C5",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC3",
+        "file_offset": "021AC3",
+        "opcode": "D0",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 60928,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 240,
+        "x": 0,
+        "y": 0,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 4,
+        "x": 0,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 4,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 4,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 3,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 2,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 240,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B22",
+        "file_offset": "021B22",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A80",
+        "file_offset": "021A80",
+        "opcode": "A9",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A82",
+        "file_offset": "021A82",
+        "opcode": "20",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C24B65",
+        "file_offset": "024B65",
+        "opcode": "DA",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 503
+      },
+      {
+        "cpu": "C24B66",
+        "file_offset": "024B66",
+        "opcode": "08",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B67",
+        "file_offset": "024B67",
+        "opcode": "E2",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B69",
+        "file_offset": "024B69",
+        "opcode": "EB",
+        "a": 3,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6A",
+        "file_offset": "024B6A",
+        "opcode": "48",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6B",
+        "file_offset": "024B6B",
+        "opcode": "E6",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6D",
+        "file_offset": "024B6D",
+        "opcode": "A6",
+        "a": 768,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6F",
+        "file_offset": "024B6F",
+        "opcode": "BF",
+        "a": 768,
+        "x": 89,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B73",
+        "file_offset": "024B73",
+        "opcode": "20",
+        "a": 973,
+        "x": 89,
+        "y": 12,
+        "p": 176,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B76",
+        "file_offset": "024B76",
+        "opcode": "68",
+        "a": 615,
+        "x": 89,
+        "y": 12,
+        "p": 176,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B77",
+        "file_offset": "024B77",
+        "opcode": "EB",
+        "a": 512,
+        "x": 89,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B78",
+        "file_offset": "024B78",
+        "opcode": "28",
+        "a": 2,
+        "x": 89,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B79",
+        "file_offset": "024B79",
+        "opcode": "FA",
+        "a": 2,
+        "x": 89,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B7A",
+        "file_offset": "024B7A",
+        "opcode": "60",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21A85",
+        "file_offset": "021A85",
+        "opcode": "AA",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A86",
+        "file_offset": "021A86",
+        "opcode": "BD",
+        "a": 2,
+        "x": 2,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A89",
+        "file_offset": "021A89",
+        "opcode": "C9",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A8B",
+        "file_offset": "021A8B",
+        "opcode": "D0",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B25",
+        "file_offset": "021B25",
+        "opcode": "20",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21DBF",
+        "file_offset": "021DBF",
+        "opcode": "DA",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21DC0",
+        "file_offset": "021DC0",
+        "opcode": "48",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC1",
+        "file_offset": "021DC1",
+        "opcode": "EB",
+        "a": 239,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC2",
+        "file_offset": "021DC2",
+        "opcode": "68",
+        "a": 61184,
+        "x": 2,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC3",
+        "file_offset": "021DC3",
+        "opcode": "A2",
+        "a": 61423,
+        "x": 2,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61423,
+        "x": 10,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61423,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD1",
+        "file_offset": "021DD1",
+        "opcode": "CA",
+        "a": 61423,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD2",
+        "file_offset": "021DD2",
+        "opcode": "10",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 49,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCB",
+        "file_offset": "021DCB",
+        "opcode": "BF",
+        "a": 61423,
+        "x": 9,
+        "y": 12,
+        "p": 49,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCF",
+        "file_offset": "021DCF",
+        "opcode": "80",
+        "a": 61184,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD6",
+        "file_offset": "021DD6",
+        "opcode": "FA",
+        "a": 61184,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD7",
+        "file_offset": "021DD7",
+        "opcode": "60",
+        "a": 61184,
+        "x": 2,
+        "y": 12,
+        "p": 49,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B28",
+        "file_offset": "021B28",
+        "opcode": "BB",
+        "a": 61184,
+        "x": 2,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B29",
+        "file_offset": "021B29",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2B",
+        "file_offset": "021B2B",
+        "opcode": "48",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2C",
+        "file_offset": "021B2C",
+        "opcode": "A5",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B2E",
+        "file_offset": "021B2E",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B30",
+        "file_offset": "021B30",
+        "opcode": "BD",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B33",
+        "file_offset": "021B33",
+        "opcode": "89",
+        "a": 8192,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B36",
+        "file_offset": "021B36",
+        "opcode": "F0",
+        "a": 8192,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B38",
+        "file_offset": "021B38",
+        "opcode": "64",
+        "a": 8192,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3A",
+        "file_offset": "021B3A",
+        "opcode": "68",
+        "a": 8192,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3B",
+        "file_offset": "021B3B",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C203B9",
+        "file_offset": "0203B9",
+        "opcode": "08",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C203BA",
+        "file_offset": "0203BA",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BC",
+        "file_offset": "0203BC",
+        "opcode": "C9",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BF",
+        "file_offset": "0203BF",
+        "opcode": "D0",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C4",
+        "file_offset": "0203C4",
+        "opcode": "28",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C5",
+        "file_offset": "0203C5",
+        "opcode": "60",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3E",
+        "file_offset": "021B3E",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B41",
+        "file_offset": "021B41",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B44",
+        "file_offset": "021B44",
+        "opcode": "4C",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 61184,
+        "x": 12,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 61184,
+        "x": 4,
+        "y": 12,
+        "p": 1,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65518,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65518,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 255,
+        "x": 4,
+        "y": 4,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 15,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 1,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 1,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 1,
+        "x": 1,
+        "y": 5,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 15,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 30,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7B",
+        "file_offset": "021A7B",
+        "opcode": "A9",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7D",
+        "file_offset": "021A7D",
+        "opcode": "85",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7F",
+        "file_offset": "021A7F",
+        "opcode": "60",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A40",
+        "file_offset": "021A40",
+        "opcode": "28",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A41",
+        "file_offset": "021A41",
+        "opcode": "FA",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 255,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 1025,
+    "instructions": [
+      {
+        "cpu": "C21A2F",
+        "file_offset": "021A2F",
+        "opcode": "DA",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C21A30",
+        "file_offset": "021A30",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A31",
+        "file_offset": "021A31",
+        "opcode": "A5",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A33",
+        "file_offset": "021A33",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A35",
+        "file_offset": "021A35",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A37",
+        "file_offset": "021A37",
+        "opcode": "E2",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A39",
+        "file_offset": "021A39",
+        "opcode": "64",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3B",
+        "file_offset": "021A3B",
+        "opcode": "86",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3D",
+        "file_offset": "021A3D",
+        "opcode": "20",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21AAF",
+        "file_offset": "021AAF",
+        "opcode": "AD",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB2",
+        "file_offset": "021AB2",
+        "opcode": "85",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65519,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65519,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 65006,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 65006,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 65006,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 65006,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 65006,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABF",
+        "file_offset": "021ABF",
+        "opcode": "A5",
+        "a": 65006,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC1",
+        "file_offset": "021AC1",
+        "opcode": "C5",
+        "a": 64768,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC3",
+        "file_offset": "021AC3",
+        "opcode": "D0",
+        "a": 64768,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 64768,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 238,
+        "x": 0,
+        "y": 0,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 254,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADA",
+        "file_offset": "021ADA",
+        "opcode": "A9",
+        "a": 254,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 15,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 15,
+        "x": 15,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 1,
+        "x": 15,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 1,
+        "x": 1,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 1,
+        "x": 1,
+        "y": 1,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 1,
+        "x": 0,
+        "y": 1,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 1,
+        "x": 0,
+        "y": 1,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 1,
+        "x": 0,
+        "y": 1,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 1,
+        "x": 0,
+        "y": 1,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 1,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 1,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B25",
+        "file_offset": "021B25",
+        "opcode": "20",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21DBF",
+        "file_offset": "021DBF",
+        "opcode": "DA",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 505
+      },
+      {
+        "cpu": "C21DC0",
+        "file_offset": "021DC0",
+        "opcode": "48",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC1",
+        "file_offset": "021DC1",
+        "opcode": "EB",
+        "a": 238,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC2",
+        "file_offset": "021DC2",
+        "opcode": "68",
+        "a": 60928,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 503
+      },
+      {
+        "cpu": "C21DC3",
+        "file_offset": "021DC3",
+        "opcode": "A2",
+        "a": 61166,
+        "x": 0,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61166,
+        "x": 10,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61166,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD1",
+        "file_offset": "021DD1",
+        "opcode": "CA",
+        "a": 61166,
+        "x": 10,
+        "y": 12,
+        "p": 176,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD2",
+        "file_offset": "021DD2",
+        "opcode": "10",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC5",
+        "file_offset": "021DC5",
+        "opcode": "DF",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 48,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DC9",
+        "file_offset": "021DC9",
+        "opcode": "90",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCB",
+        "file_offset": "021DCB",
+        "opcode": "BF",
+        "a": 61166,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DCF",
+        "file_offset": "021DCF",
+        "opcode": "80",
+        "a": 60928,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD6",
+        "file_offset": "021DD6",
+        "opcode": "FA",
+        "a": 60928,
+        "x": 9,
+        "y": 12,
+        "p": 51,
+        "sp": 504
+      },
+      {
+        "cpu": "C21DD7",
+        "file_offset": "021DD7",
+        "opcode": "60",
+        "a": 60928,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B28",
+        "file_offset": "021B28",
+        "opcode": "BB",
+        "a": 60928,
+        "x": 0,
+        "y": 12,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B29",
+        "file_offset": "021B29",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2B",
+        "file_offset": "021B2B",
+        "opcode": "48",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2C",
+        "file_offset": "021B2C",
+        "opcode": "A5",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B2E",
+        "file_offset": "021B2E",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B30",
+        "file_offset": "021B30",
+        "opcode": "BD",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B33",
+        "file_offset": "021B33",
+        "opcode": "89",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B36",
+        "file_offset": "021B36",
+        "opcode": "F0",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3A",
+        "file_offset": "021B3A",
+        "opcode": "68",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 19,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3B",
+        "file_offset": "021B3B",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C203B9",
+        "file_offset": "0203B9",
+        "opcode": "08",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C203BA",
+        "file_offset": "0203BA",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BC",
+        "file_offset": "0203BC",
+        "opcode": "C9",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BF",
+        "file_offset": "0203BF",
+        "opcode": "D0",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C4",
+        "file_offset": "0203C4",
+        "opcode": "28",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 17,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C5",
+        "file_offset": "0203C5",
+        "opcode": "60",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3E",
+        "file_offset": "021B3E",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B41",
+        "file_offset": "021B41",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B44",
+        "file_offset": "021B44",
+        "opcode": "4C",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 145,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 161,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 60928,
+        "x": 12,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 60928,
+        "x": 1,
+        "y": 12,
+        "p": 1,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65535,
+        "x": 1,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65535,
+        "x": 1,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 61437,
+        "x": 1,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 61437,
+        "x": 1,
+        "y": 12,
+        "p": 129,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 61437,
+        "x": 1,
+        "y": 12,
+        "p": 161,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 61437,
+        "x": 1,
+        "y": 12,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 61437,
+        "x": 1,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 61437,
+        "x": 1,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 1,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 1,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 1,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 253,
+        "x": 1,
+        "y": 1,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 13,
+        "x": 1,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 13,
+        "x": 1,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 13,
+        "x": 13,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 1,
+        "x": 13,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 1,
+        "x": 1,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 1,
+        "x": 1,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 1,
+        "x": 0,
+        "y": 2,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 1,
+        "x": 0,
+        "y": 2,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 1,
+        "x": 0,
+        "y": 2,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 1,
+        "x": 0,
+        "y": 2,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 2,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 2,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 253,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 253,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 253,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 13,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 26,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 26,
+        "x": 26,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A74",
+        "file_offset": "021A74",
+        "opcode": "C2",
+        "a": 26,
+        "x": 26,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A76",
+        "file_offset": "021A76",
+        "opcode": "A5",
+        "a": 26,
+        "x": 26,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A78",
+        "file_offset": "021A78",
+        "opcode": "85",
+        "a": 2,
+        "x": 26,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7A",
+        "file_offset": "021A7A",
+        "opcode": "60",
+        "a": 2,
+        "x": 26,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A40",
+        "file_offset": "021A40",
+        "opcode": "28",
+        "a": 2,
+        "x": 26,
+        "y": 12,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A41",
+        "file_offset": "021A41",
+        "opcode": "FA",
+        "a": 2,
+        "x": 26,
+        "y": 12,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 1600,
+    "instructions": [
+      {
+        "cpu": "C21A2F",
+        "file_offset": "021A2F",
+        "opcode": "DA",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C21A30",
+        "file_offset": "021A30",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A31",
+        "file_offset": "021A31",
+        "opcode": "A5",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A33",
+        "file_offset": "021A33",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A35",
+        "file_offset": "021A35",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A37",
+        "file_offset": "021A37",
+        "opcode": "E2",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 16,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A39",
+        "file_offset": "021A39",
+        "opcode": "64",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3B",
+        "file_offset": "021A3B",
+        "opcode": "86",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A3D",
+        "file_offset": "021A3D",
+        "opcode": "20",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 509
+      },
+      {
+        "cpu": "C21AAF",
+        "file_offset": "021AAF",
+        "opcode": "AD",
+        "a": 15,
+        "x": 12,
+        "y": 0,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB2",
+        "file_offset": "021AB2",
+        "opcode": "85",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 34,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 0,
+        "x": 12,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 2,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65053,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65053,
+        "x": 0,
+        "y": 0,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 756,
+        "x": 0,
+        "y": 0,
+        "p": 0,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 756,
+        "x": 0,
+        "y": 0,
+        "p": 0,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 756,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 756,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 756,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABF",
+        "file_offset": "021ABF",
+        "opcode": "A5",
+        "a": 756,
+        "x": 0,
+        "y": 0,
+        "p": 160,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC1",
+        "file_offset": "021AC1",
+        "opcode": "C5",
+        "a": 512,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AC3",
+        "file_offset": "021AC3",
+        "opcode": "D0",
+        "a": 512,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 512,
+        "x": 0,
+        "y": 0,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 34,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 244,
+        "x": 0,
+        "y": 0,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 4,
+        "x": 0,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 4,
+        "x": 0,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 4,
+        "x": 4,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 4,
+        "x": 4,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 4,
+        "y": 0,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 4,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 3,
+        "y": 1,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 3,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 2,
+        "y": 2,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 2,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 4,
+        "x": 1,
+        "y": 3,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 4,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 4,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 4,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 244,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 244,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 244,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 4,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 8,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 8,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B1C",
+        "file_offset": "021B1C",
+        "opcode": "7B",
+        "a": 8,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B1D",
+        "file_offset": "021B1D",
+        "opcode": "20",
+        "a": 0,
+        "x": 8,
+        "y": 12,
+        "p": 50,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A80",
+        "file_offset": "021A80",
+        "opcode": "A9",
+        "a": 0,
+        "x": 8,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A82",
+        "file_offset": "021A82",
+        "opcode": "20",
+        "a": 3,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C24B65",
+        "file_offset": "024B65",
+        "opcode": "DA",
+        "a": 3,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 503
+      },
+      {
+        "cpu": "C24B66",
+        "file_offset": "024B66",
+        "opcode": "08",
+        "a": 3,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B67",
+        "file_offset": "024B67",
+        "opcode": "E2",
+        "a": 3,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B69",
+        "file_offset": "024B69",
+        "opcode": "EB",
+        "a": 3,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6A",
+        "file_offset": "024B6A",
+        "opcode": "48",
+        "a": 768,
+        "x": 8,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B6B",
+        "file_offset": "024B6B",
+        "opcode": "E6",
+        "a": 768,
+        "x": 8,
+        "y": 12,
+        "p": 50,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6D",
+        "file_offset": "024B6D",
+        "opcode": "A6",
+        "a": 768,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B6F",
+        "file_offset": "024B6F",
+        "opcode": "BF",
+        "a": 768,
+        "x": 65,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B73",
+        "file_offset": "024B73",
+        "opcode": "20",
+        "a": 781,
+        "x": 65,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B76",
+        "file_offset": "024B76",
+        "opcode": "68",
+        "a": 39,
+        "x": 65,
+        "y": 12,
+        "p": 48,
+        "sp": 500
+      },
+      {
+        "cpu": "C24B77",
+        "file_offset": "024B77",
+        "opcode": "EB",
+        "a": 0,
+        "x": 65,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B78",
+        "file_offset": "024B78",
+        "opcode": "28",
+        "a": 0,
+        "x": 65,
+        "y": 12,
+        "p": 50,
+        "sp": 501
+      },
+      {
+        "cpu": "C24B79",
+        "file_offset": "024B79",
+        "opcode": "FA",
+        "a": 0,
+        "x": 65,
+        "y": 12,
+        "p": 48,
+        "sp": 502
+      },
+      {
+        "cpu": "C24B7A",
+        "file_offset": "024B7A",
+        "opcode": "60",
+        "a": 0,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 503
+      },
+      {
+        "cpu": "C21A85",
+        "file_offset": "021A85",
+        "opcode": "AA",
+        "a": 0,
+        "x": 8,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A86",
+        "file_offset": "021A86",
+        "opcode": "BD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 50,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A89",
+        "file_offset": "021A89",
+        "opcode": "C9",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A8B",
+        "file_offset": "021A8B",
+        "opcode": "D0",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B20",
+        "file_offset": "021B20",
+        "opcode": "80",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B28",
+        "file_offset": "021B28",
+        "opcode": "BB",
+        "a": 2,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B29",
+        "file_offset": "021B29",
+        "opcode": "C2",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2B",
+        "file_offset": "021B2B",
+        "opcode": "48",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B2C",
+        "file_offset": "021B2C",
+        "opcode": "A5",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B2E",
+        "file_offset": "021B2E",
+        "opcode": "85",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B30",
+        "file_offset": "021B30",
+        "opcode": "BD",
+        "a": 15,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B33",
+        "file_offset": "021B33",
+        "opcode": "89",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 18,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B36",
+        "file_offset": "021B36",
+        "opcode": "F0",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 18,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3A",
+        "file_offset": "021B3A",
+        "opcode": "68",
+        "a": 0,
+        "x": 12,
+        "y": 12,
+        "p": 18,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3B",
+        "file_offset": "021B3B",
+        "opcode": "20",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C203B9",
+        "file_offset": "0203B9",
+        "opcode": "08",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 505
+      },
+      {
+        "cpu": "C203BA",
+        "file_offset": "0203BA",
+        "opcode": "C2",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BC",
+        "file_offset": "0203BC",
+        "opcode": "C9",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 504
+      },
+      {
+        "cpu": "C203BF",
+        "file_offset": "0203BF",
+        "opcode": "D0",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C4",
+        "file_offset": "0203C4",
+        "opcode": "28",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 504
+      },
+      {
+        "cpu": "C203C5",
+        "file_offset": "0203C5",
+        "opcode": "60",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 505
+      },
+      {
+        "cpu": "C21B3E",
+        "file_offset": "021B3E",
+        "opcode": "20",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B41",
+        "file_offset": "021B41",
+        "opcode": "20",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B44",
+        "file_offset": "021B44",
+        "opcode": "4C",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB4",
+        "file_offset": "021AB4",
+        "opcode": "E2",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB6",
+        "file_offset": "021AB6",
+        "opcode": "C2",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AB8",
+        "file_offset": "021AB8",
+        "opcode": "20",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A5F",
+        "file_offset": "021A5F",
+        "opcode": "08",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 32,
+        "sp": 505
+      },
+      {
+        "cpu": "C21A60",
+        "file_offset": "021A60",
+        "opcode": "C2",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 32,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A62",
+        "file_offset": "021A62",
+        "opcode": "A6",
+        "a": 2,
+        "x": 12,
+        "y": 12,
+        "p": 0,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A64",
+        "file_offset": "021A64",
+        "opcode": "BF",
+        "a": 2,
+        "x": 4,
+        "y": 12,
+        "p": 0,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A68",
+        "file_offset": "021A68",
+        "opcode": "8D",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6B",
+        "file_offset": "021A6B",
+        "opcode": "BF",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A6F",
+        "file_offset": "021A6F",
+        "opcode": "8D",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A72",
+        "file_offset": "021A72",
+        "opcode": "28",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 128,
+        "sp": 504
+      },
+      {
+        "cpu": "C21A73",
+        "file_offset": "021A73",
+        "opcode": "60",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 32,
+        "sp": 505
+      },
+      {
+        "cpu": "C21ABB",
+        "file_offset": "021ABB",
+        "opcode": "C9",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 32,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ABD",
+        "file_offset": "021ABD",
+        "opcode": "B0",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD0",
+        "file_offset": "021AD0",
+        "opcode": "7B",
+        "a": 65535,
+        "x": 4,
+        "y": 12,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD1",
+        "file_offset": "021AD1",
+        "opcode": "38",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD2",
+        "file_offset": "021AD2",
+        "opcode": "9B",
+        "a": 0,
+        "x": 4,
+        "y": 12,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD3",
+        "file_offset": "021AD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD6",
+        "file_offset": "021AD6",
+        "opcode": "E9",
+        "a": 255,
+        "x": 4,
+        "y": 4,
+        "p": 161,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AD8",
+        "file_offset": "021AD8",
+        "opcode": "B0",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADC",
+        "file_offset": "021ADC",
+        "opcode": "AA",
+        "a": 15,
+        "x": 4,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21ADD",
+        "file_offset": "021ADD",
+        "opcode": "BF",
+        "a": 15,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE1",
+        "file_offset": "021AE1",
+        "opcode": "AA",
+        "a": 1,
+        "x": 15,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE2",
+        "file_offset": "021AE2",
+        "opcode": "C8",
+        "a": 1,
+        "x": 1,
+        "y": 4,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE3",
+        "file_offset": "021AE3",
+        "opcode": "CA",
+        "a": 1,
+        "x": 1,
+        "y": 5,
+        "p": 33,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE4",
+        "file_offset": "021AE4",
+        "opcode": "D0",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE6",
+        "file_offset": "021AE6",
+        "opcode": "84",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AE8",
+        "file_offset": "021AE8",
+        "opcode": "E2",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 35,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEA",
+        "file_offset": "021AEA",
+        "opcode": "A5",
+        "a": 1,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AEC",
+        "file_offset": "021AEC",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF5",
+        "file_offset": "021AF5",
+        "opcode": "A4",
+        "a": 0,
+        "x": 0,
+        "y": 5,
+        "p": 51,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AF7",
+        "file_offset": "021AF7",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFA",
+        "file_offset": "021AFA",
+        "opcode": "C9",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 177,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFC",
+        "file_offset": "021AFC",
+        "opcode": "90",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21AFE",
+        "file_offset": "021AFE",
+        "opcode": "29",
+        "a": 255,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B00",
+        "file_offset": "021B00",
+        "opcode": "0A",
+        "a": 15,
+        "x": 0,
+        "y": 12,
+        "p": 49,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B01",
+        "file_offset": "021B01",
+        "opcode": "AA",
+        "a": 30,
+        "x": 0,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21B02",
+        "file_offset": "021B02",
+        "opcode": "7C",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7B",
+        "file_offset": "021A7B",
+        "opcode": "A9",
+        "a": 30,
+        "x": 30,
+        "y": 12,
+        "p": 48,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7D",
+        "file_offset": "021A7D",
+        "opcode": "85",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A7F",
+        "file_offset": "021A7F",
+        "opcode": "60",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 507
+      },
+      {
+        "cpu": "C21A40",
+        "file_offset": "021A40",
+        "opcode": "28",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 176,
+        "sp": 509
+      },
+      {
+        "cpu": "C21A41",
+        "file_offset": "021A41",
+        "opcode": "FA",
+        "a": 255,
+        "x": 30,
+        "y": 12,
+        "p": 16,
+        "sp": 510
+      },
+      {
+        "cpu": "C21A42",
+        "file_offset": "021A42",
+        "opcode": "60",
+        "a": 255,
+        "x": 12,
+        "y": 12,
+        "p": 16,
+        "sp": 511
+      }
+    ]
+  }
+]

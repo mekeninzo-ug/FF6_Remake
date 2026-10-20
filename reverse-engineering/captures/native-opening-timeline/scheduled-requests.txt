@@ -1,0 +1,25 @@
+LoadMap { word: 19, x: 38, y: 58, flags: 64 }
+WaitFrames(30)
+SongFadeIn { song: 57, duration: 160 }
+SpcCommand([130, 0, 255])
+WaitFrames(30)
+ObjectBlock { object: 0, start: 170594, bytes: 2, awaited: true }
+ObjectBlock { object: 14, start: 170605, bytes: 5, awaited: true }
+ObjectBlock { object: 15, start: 170612, bytes: 5, awaited: true }
+SortObjects
+ObjectBlock { object: 0, start: 170624, bytes: 2, awaited: true }
+ObjectBlock { object: 14, start: 170628, bytes: 2, awaited: true }
+ObjectBlock { object: 15, start: 170632, bytes: 2, awaited: false }
+FadeIn(4)
+ObjectBlock { object: 0, start: 170651, bytes: 2, awaited: false }
+ObjectBlock { object: 15, start: 170655, bytes: 4, awaited: false }
+SupersededBlock { object: 15, next: 170632, end: 170634 }
+ObjectBlock { object: 14, start: 170661, bytes: 8, awaited: true }
+ObjectWait { object: 14, frames: 40 }
+ObjectBlock { object: 15, start: 170671, bytes: 4, awaited: true }
+ObjectWait { object: 15, frames: 32 }
+ObjectBlock { object: 14, start: 170684, bytes: 2, awaited: true }
+ObjectBlock { object: 14, start: 170688, bytes: 3, awaited: false }
+ObjectBlock { object: 15, start: 170693, bytes: 4, awaited: true }
+SortObjects
+ObjectBlock { object: 0, start: 170700, bytes: 2, awaited: true }

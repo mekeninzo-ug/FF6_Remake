@@ -1,0 +1,9 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "resolution_cases": 16384,
+  "counter_cases": 4152,
+  "resolution_target_instructions": 468700,
+  "counter_target_instructions": 89199,
+  "reference_kind": "bounded actual target elemental stage and accumulator; prior modifiers/ratio and later CalcMaxDmg effects intercepted, no current HP application",
+  "result": "pass"
+}

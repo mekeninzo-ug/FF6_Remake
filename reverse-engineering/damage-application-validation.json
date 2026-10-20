@@ -1,0 +1,7 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "cases": 16384,
+  "target_instructions": 543912,
+  "reference_kind": "actual target C2/1323 HP and C2/1350 MP helpers, net calculation and pending status/update writes; no hooks; excludes outer attacker attribution and status commit",
+  "result": "pass"
+}

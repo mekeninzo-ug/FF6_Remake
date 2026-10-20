@@ -1,0 +1,25 @@
+[package]
+name = "ff6-native"
+version = "0.1.0"
+edition = "2021"
+description = "Native Rust reconstruction workbench for Final Fantasy VI (TWUE 3.07 + Bug Fixes)"
+license = "MIT"
+exclude = [
+    "**/*.sfc",
+    "**/*.ips",
+    "Patch/**",
+    ".tools/**",
+    "extracted/**",
+    "reverse-engineering/captures/**",
+    "**/__pycache__/**",
+    "*.pyc",
+]
+
+[[bin]]
+name = "ff6-native"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true

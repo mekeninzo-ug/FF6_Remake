@@ -1,0 +1,19 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "initialization_cases": 768,
+  "block_scan_cases": 734,
+  "monsters_without_retaliation": 175,
+  "target_instructions": 215589,
+  "normal_script_content_changed": [
+    34,
+    36,
+    37
+  ],
+  "retaliation_script_content_changed": [
+    127,
+    243
+  ],
+  "normal_pointer_changed_count": 382,
+  "reference_kind": "actual target InitAI and FindAIScriptEnd, all 384 monster pointers; no hooks; decoded stream bytes compared to clean; does not execute AI conditions or actions",
+  "result": "pass"
+}

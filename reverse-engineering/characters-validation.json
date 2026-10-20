@@ -1,0 +1,43 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "character_level_cases": 6336,
+  "numeric_clean_source_fields": 440,
+  "growth_entries": 294,
+  "opening_party": [
+    [
+      0,
+      0,
+      3,
+      63,
+      27,
+      96
+    ],
+    [
+      14,
+      32,
+      1,
+      68,
+      0,
+      0
+    ],
+    [
+      15,
+      33,
+      1,
+      70,
+      0,
+      0
+    ]
+  ],
+  "native_game_and_save_rows": 6,
+  "mp_growth_changed_bytes": 86,
+  "japanese_source_mp_difference": [
+    {
+      "level": 23,
+      "japanese": 15,
+      "target": 14
+    }
+  ],
+  "reference_kind": "raw target tables and static field initialization source; no original runtime capture",
+  "result": "pass"
+}

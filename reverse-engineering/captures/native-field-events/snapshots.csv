@@ -1,0 +1,6 @@
+scenario,stage,frame,event_offset,terra_x,terra_y,wedge_x,wedge_y,vicks_x,vicks_y,npc1_x,npc1_y,npc2_x,npc2_y,party,dialogue,battle,flag_0128
+backtrack,dialogue,93,0x029B57,38,50,38,52,40,51,0,0,0,0,0:255:255:255,12,,0
+backtrack,returned,205,0x029B71,38,49,38,50,38,50,0,0,0,0,0:255:255:255,,,0
+guards,dialogue,45,0x029B97,38,38,0,0,0,0,37,35,39,35,0:14:15:255,13,,0
+guards,battle,73,0x029BA4,38,38,0,0,0,0,37,38,39,38,0:14:15:255,,1,0
+gated,returned,1,0x005EB4,38,38,0,0,0,0,0,0,0,0,0:14:15:255,,,1

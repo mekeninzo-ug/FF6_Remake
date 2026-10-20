@@ -1,0 +1,964 @@
+{
+  "executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "source_commit": "813013276c952fdd27edcf7b8b86f17291542cbf",
+  "game_start_actor_bindings": [
+    {
+      "actor": 0,
+      "graphic": 0,
+      "palette": 2,
+      "party": 1,
+      "cpu": "0xCA5E3A",
+      "file_offset": "0x0A5E3A",
+      "bytes": "3d 00 3f 00 01 37 00 00 43 00 02"
+    },
+    {
+      "actor": 14,
+      "graphic": 14,
+      "palette": 1,
+      "party": 1,
+      "cpu": "0xCA5E4F",
+      "file_offset": "0x0A5E4F",
+      "bytes": "3d 0e 3f 0e 01 37 0e 0e 43 0e 01"
+    },
+    {
+      "actor": 15,
+      "graphic": 14,
+      "palette": 1,
+      "party": 1,
+      "cpu": "0xCA5E60",
+      "file_offset": "0x0A5E60",
+      "bytes": "3d 0f 3f 0f 01 37 0f 0e 43 0f 01"
+    }
+  ],
+  "actor_states": [
+    {
+      "scenario": "backtrack",
+      "object": "0",
+      "enabled": "1",
+      "visible": "1",
+      "graphic": "0",
+      "palette": "2",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "backtrack",
+      "object": "14",
+      "enabled": "1",
+      "visible": "0",
+      "graphic": "14",
+      "palette": "1",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "backtrack",
+      "object": "15",
+      "enabled": "1",
+      "visible": "0",
+      "graphic": "14",
+      "palette": "1",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "backtrack",
+      "object": "16",
+      "enabled": "0",
+      "visible": "0",
+      "graphic": "52",
+      "palette": "1",
+      "character_party": "0",
+      "active_party": "1"
+    },
+    {
+      "scenario": "backtrack",
+      "object": "17",
+      "enabled": "0",
+      "visible": "0",
+      "graphic": "52",
+      "palette": "1",
+      "character_party": "0",
+      "active_party": "1"
+    },
+    {
+      "scenario": "guards",
+      "object": "0",
+      "enabled": "1",
+      "visible": "1",
+      "graphic": "0",
+      "palette": "2",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "guards",
+      "object": "14",
+      "enabled": "1",
+      "visible": "0",
+      "graphic": "14",
+      "palette": "1",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "guards",
+      "object": "15",
+      "enabled": "1",
+      "visible": "0",
+      "graphic": "14",
+      "palette": "1",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "guards",
+      "object": "16",
+      "enabled": "1",
+      "visible": "1",
+      "graphic": "52",
+      "palette": "1",
+      "character_party": "0",
+      "active_party": "1"
+    },
+    {
+      "scenario": "guards",
+      "object": "17",
+      "enabled": "1",
+      "visible": "1",
+      "graphic": "52",
+      "palette": "1",
+      "character_party": "0",
+      "active_party": "1"
+    },
+    {
+      "scenario": "gated",
+      "object": "0",
+      "enabled": "1",
+      "visible": "1",
+      "graphic": "0",
+      "palette": "2",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "gated",
+      "object": "14",
+      "enabled": "1",
+      "visible": "0",
+      "graphic": "14",
+      "palette": "1",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "gated",
+      "object": "15",
+      "enabled": "1",
+      "visible": "0",
+      "graphic": "14",
+      "palette": "1",
+      "character_party": "1",
+      "active_party": "1"
+    },
+    {
+      "scenario": "gated",
+      "object": "16",
+      "enabled": "0",
+      "visible": "0",
+      "graphic": "52",
+      "palette": "1",
+      "character_party": "0",
+      "active_party": "1"
+    },
+    {
+      "scenario": "gated",
+      "object": "17",
+      "enabled": "0",
+      "visible": "0",
+      "graphic": "52",
+      "palette": "1",
+      "character_party": "0",
+      "active_party": "1"
+    }
+  ],
+  "source_encodings": [
+    {
+      "scenario": "backtrack",
+      "cpu": "0xCC9B1D",
+      "file_offset": "0x0C9B1D",
+      "bytes": 84,
+      "native_command_spans": 54,
+      "source_units": [
+        {
+          "offset": 170781,
+          "opcode": 120,
+          "length": 2,
+          "object": null,
+          "source_line": 100866
+        },
+        {
+          "offset": 170783,
+          "opcode": 120,
+          "length": 2,
+          "object": null,
+          "source_line": 100867
+        },
+        {
+          "offset": 170785,
+          "opcode": 0,
+          "length": 2,
+          "object": null,
+          "source_line": 100868
+        },
+        {
+          "offset": 170787,
+          "opcode": 215,
+          "length": 1,
+          "object": 0,
+          "source_line": 100869
+        },
+        {
+          "offset": 170788,
+          "opcode": 255,
+          "length": 1,
+          "object": 0,
+          "source_line": 100870
+        },
+        {
+          "offset": 170789,
+          "opcode": 60,
+          "length": 5,
+          "object": null,
+          "source_line": 100871
+        },
+        {
+          "offset": 170794,
+          "opcode": 65,
+          "length": 2,
+          "object": null,
+          "source_line": 100872
+        },
+        {
+          "offset": 170796,
+          "opcode": 69,
+          "length": 1,
+          "object": null,
+          "source_line": 100873
+        },
+        {
+          "offset": 170797,
+          "opcode": 61,
+          "length": 2,
+          "object": null,
+          "source_line": 100874
+        },
+        {
+          "offset": 170799,
+          "opcode": 61,
+          "length": 2,
+          "object": null,
+          "source_line": 100875
+        },
+        {
+          "offset": 170801,
+          "opcode": 14,
+          "length": 2,
+          "object": null,
+          "source_line": 100876
+        },
+        {
+          "offset": 170803,
+          "opcode": 213,
+          "length": 3,
+          "object": 14,
+          "source_line": 100877
+        },
+        {
+          "offset": 170806,
+          "opcode": 206,
+          "length": 1,
+          "object": 14,
+          "source_line": 100878
+        },
+        {
+          "offset": 170807,
+          "opcode": 194,
+          "length": 1,
+          "object": 14,
+          "source_line": 100879
+        },
+        {
+          "offset": 170808,
+          "opcode": 255,
+          "length": 1,
+          "object": 14,
+          "source_line": 100880
+        },
+        {
+          "offset": 170809,
+          "opcode": 15,
+          "length": 2,
+          "object": null,
+          "source_line": 100881
+        },
+        {
+          "offset": 170811,
+          "opcode": 213,
+          "length": 3,
+          "object": 15,
+          "source_line": 100882
+        },
+        {
+          "offset": 170814,
+          "opcode": 206,
+          "length": 1,
+          "object": 15,
+          "source_line": 100883
+        },
+        {
+          "offset": 170815,
+          "opcode": 194,
+          "length": 1,
+          "object": 15,
+          "source_line": 100884
+        },
+        {
+          "offset": 170816,
+          "opcode": 255,
+          "length": 1,
+          "object": 15,
+          "source_line": 100885
+        },
+        {
+          "offset": 170817,
+          "opcode": 65,
+          "length": 2,
+          "object": null,
+          "source_line": 100886
+        },
+        {
+          "offset": 170819,
+          "opcode": 65,
+          "length": 2,
+          "object": null,
+          "source_line": 100887
+        },
+        {
+          "offset": 170821,
+          "opcode": 69,
+          "length": 1,
+          "object": null,
+          "source_line": 100888
+        },
+        {
+          "offset": 170822,
+          "opcode": 14,
+          "length": 2,
+          "object": null,
+          "source_line": 100889
+        },
+        {
+          "offset": 170824,
+          "opcode": 134,
+          "length": 1,
+          "object": 14,
+          "source_line": 100890
+        },
+        {
+          "offset": 170825,
+          "opcode": 204,
+          "length": 1,
+          "object": 14,
+          "source_line": 100891
+        },
+        {
+          "offset": 170826,
+          "opcode": 255,
+          "length": 1,
+          "object": 14,
+          "source_line": 100892
+        },
+        {
+          "offset": 170827,
+          "opcode": 15,
+          "length": 2,
+          "object": null,
+          "source_line": 100893
+        },
+        {
+          "offset": 170829,
+          "opcode": 130,
+          "length": 1,
+          "object": 15,
+          "source_line": 100894
+        },
+        {
+          "offset": 170830,
+          "opcode": 133,
+          "length": 1,
+          "object": 15,
+          "source_line": 100895
+        },
+        {
+          "offset": 170831,
+          "opcode": 206,
+          "length": 1,
+          "object": 15,
+          "source_line": 100896
+        },
+        {
+          "offset": 170832,
+          "opcode": 224,
+          "length": 2,
+          "object": 15,
+          "source_line": 100897
+        },
+        {
+          "offset": 170834,
+          "opcode": 207,
+          "length": 1,
+          "object": 15,
+          "source_line": 100898
+        },
+        {
+          "offset": 170835,
+          "opcode": 255,
+          "length": 1,
+          "object": 15,
+          "source_line": 100899
+        },
+        {
+          "offset": 170836,
+          "opcode": 75,
+          "length": 3,
+          "object": null,
+          "source_line": 100900
+        },
+        {
+          "offset": 170839,
+          "opcode": 14,
+          "length": 2,
+          "object": null,
+          "source_line": 100903
+        },
+        {
+          "offset": 170841,
+          "opcode": 132,
+          "length": 1,
+          "object": 14,
+          "source_line": 100904
+        },
+        {
+          "offset": 170842,
+          "opcode": 209,
+          "length": 1,
+          "object": 14,
+          "source_line": 100905
+        },
+        {
+          "offset": 170843,
+          "opcode": 255,
+          "length": 1,
+          "object": 14,
+          "source_line": 100906
+        },
+        {
+          "offset": 170844,
+          "opcode": 15,
+          "length": 2,
+          "object": null,
+          "source_line": 100907
+        },
+        {
+          "offset": 170846,
+          "opcode": 135,
+          "length": 1,
+          "object": 15,
+          "source_line": 100908
+        },
+        {
+          "offset": 170847,
+          "opcode": 128,
+          "length": 1,
+          "object": 15,
+          "source_line": 100909
+        },
+        {
+          "offset": 170848,
+          "opcode": 209,
+          "length": 1,
+          "object": 15,
+          "source_line": 100910
+        },
+        {
+          "offset": 170849,
+          "opcode": 255,
+          "length": 1,
+          "object": 15,
+          "source_line": 100911
+        },
+        {
+          "offset": 170850,
+          "opcode": 0,
+          "length": 2,
+          "object": null,
+          "source_line": 100912
+        },
+        {
+          "offset": 170852,
+          "opcode": 205,
+          "length": 1,
+          "object": 0,
+          "source_line": 100913
+        },
+        {
+          "offset": 170853,
+          "opcode": 224,
+          "length": 2,
+          "object": 0,
+          "source_line": 100914
+        },
+        {
+          "offset": 170855,
+          "opcode": 204,
+          "length": 1,
+          "object": 0,
+          "source_line": 100915
+        },
+        {
+          "offset": 170856,
+          "opcode": 224,
+          "length": 2,
+          "object": 0,
+          "source_line": 100916
+        },
+        {
+          "offset": 170858,
+          "opcode": 128,
+          "length": 1,
+          "object": 0,
+          "source_line": 100917
+        },
+        {
+          "offset": 170859,
+          "opcode": 255,
+          "length": 1,
+          "object": 0,
+          "source_line": 100918
+        },
+        {
+          "offset": 170860,
+          "opcode": 54,
+          "length": 2,
+          "object": null,
+          "source_line": 100919
+        },
+        {
+          "offset": 170862,
+          "opcode": 54,
+          "length": 2,
+          "object": null,
+          "source_line": 100920
+        },
+        {
+          "offset": 170864,
+          "opcode": 254,
+          "length": 1,
+          "object": null,
+          "source_line": 100921
+        }
+      ]
+    },
+    {
+      "scenario": "guards",
+      "cpu": "0xCC9B71",
+      "file_offset": "0x0C9B71",
+      "bytes": 51,
+      "native_command_spans": 28,
+      "source_units": [
+        {
+          "offset": 170865,
+          "opcode": 192,
+          "length": 6,
+          "object": null,
+          "source_line": 100923
+        },
+        {
+          "offset": 170871,
+          "opcode": 61,
+          "length": 2,
+          "object": null,
+          "source_line": 100924
+        },
+        {
+          "offset": 170873,
+          "opcode": 61,
+          "length": 2,
+          "object": null,
+          "source_line": 100925
+        },
+        {
+          "offset": 170875,
+          "opcode": 16,
+          "length": 2,
+          "object": null,
+          "source_line": 100926
+        },
+        {
+          "offset": 170877,
+          "opcode": 213,
+          "length": 3,
+          "object": 16,
+          "source_line": 100927
+        },
+        {
+          "offset": 170880,
+          "opcode": 255,
+          "length": 1,
+          "object": 16,
+          "source_line": 100928
+        },
+        {
+          "offset": 170881,
+          "opcode": 17,
+          "length": 2,
+          "object": null,
+          "source_line": 100929
+        },
+        {
+          "offset": 170883,
+          "opcode": 213,
+          "length": 3,
+          "object": 17,
+          "source_line": 100930
+        },
+        {
+          "offset": 170886,
+          "opcode": 255,
+          "length": 1,
+          "object": 17,
+          "source_line": 100931
+        },
+        {
+          "offset": 170887,
+          "opcode": 65,
+          "length": 2,
+          "object": null,
+          "source_line": 100932
+        },
+        {
+          "offset": 170889,
+          "opcode": 65,
+          "length": 2,
+          "object": null,
+          "source_line": 100933
+        },
+        {
+          "offset": 170891,
+          "opcode": 69,
+          "length": 1,
+          "object": null,
+          "source_line": 100934
+        },
+        {
+          "offset": 170892,
+          "opcode": 16,
+          "length": 2,
+          "object": null,
+          "source_line": 100935
+        },
+        {
+          "offset": 170894,
+          "opcode": 138,
+          "length": 1,
+          "object": 16,
+          "source_line": 100936
+        },
+        {
+          "offset": 170895,
+          "opcode": 255,
+          "length": 1,
+          "object": 16,
+          "source_line": 100937
+        },
+        {
+          "offset": 170896,
+          "opcode": 17,
+          "length": 2,
+          "object": null,
+          "source_line": 100938
+        },
+        {
+          "offset": 170898,
+          "opcode": 138,
+          "length": 1,
+          "object": 17,
+          "source_line": 100939
+        },
+        {
+          "offset": 170899,
+          "opcode": 255,
+          "length": 1,
+          "object": 17,
+          "source_line": 100940
+        },
+        {
+          "offset": 170900,
+          "opcode": 75,
+          "length": 3,
+          "object": null,
+          "source_line": 100941
+        },
+        {
+          "offset": 170903,
+          "opcode": 16,
+          "length": 2,
+          "object": null,
+          "source_line": 100944
+        },
+        {
+          "offset": 170905,
+          "opcode": 138,
+          "length": 1,
+          "object": 16,
+          "source_line": 100945
+        },
+        {
+          "offset": 170906,
+          "opcode": 205,
+          "length": 1,
+          "object": 16,
+          "source_line": 100946
+        },
+        {
+          "offset": 170907,
+          "opcode": 255,
+          "length": 1,
+          "object": 16,
+          "source_line": 100947
+        },
+        {
+          "offset": 170908,
+          "opcode": 17,
+          "length": 2,
+          "object": null,
+          "source_line": 100948
+        },
+        {
+          "offset": 170910,
+          "opcode": 138,
+          "length": 1,
+          "object": 17,
+          "source_line": 100949
+        },
+        {
+          "offset": 170911,
+          "opcode": 207,
+          "length": 1,
+          "object": 17,
+          "source_line": 100950
+        },
+        {
+          "offset": 170912,
+          "opcode": 255,
+          "length": 1,
+          "object": 17,
+          "source_line": 100951
+        },
+        {
+          "offset": 170913,
+          "opcode": 77,
+          "length": 3,
+          "object": null,
+          "source_line": 100952
+        }
+      ]
+    }
+  ],
+  "gated_return_commands": [
+    {
+      "scenario": "gated",
+      "frame": "1",
+      "event_offset": "0x029B71",
+      "cpu": "0xCC9B71",
+      "file_offset": "0x0C9B71",
+      "scope": "event",
+      "object": "",
+      "opcode": "0xC0",
+      "length": "6"
+    },
+    {
+      "scenario": "gated",
+      "frame": "1",
+      "event_offset": "0x005EB3",
+      "cpu": "0xCA5EB3",
+      "file_offset": "0x0A5EB3",
+      "scope": "event",
+      "object": "",
+      "opcode": "0xFE",
+      "length": "1"
+    }
+  ],
+  "vm_snapshots": [
+    {
+      "scenario": "backtrack",
+      "stage": "dialogue",
+      "frame": "93",
+      "event_offset": "0x029B57",
+      "terra_x": "38",
+      "terra_y": "50",
+      "wedge_x": "38",
+      "wedge_y": "52",
+      "vicks_x": "40",
+      "vicks_y": "51",
+      "npc1_x": "0",
+      "npc1_y": "0",
+      "npc2_x": "0",
+      "npc2_y": "0",
+      "party": "0:255:255:255",
+      "dialogue": "12",
+      "battle": "",
+      "flag_0128": "0"
+    },
+    {
+      "scenario": "backtrack",
+      "stage": "returned",
+      "frame": "205",
+      "event_offset": "0x029B71",
+      "terra_x": "38",
+      "terra_y": "49",
+      "wedge_x": "38",
+      "wedge_y": "50",
+      "vicks_x": "38",
+      "vicks_y": "50",
+      "npc1_x": "0",
+      "npc1_y": "0",
+      "npc2_x": "0",
+      "npc2_y": "0",
+      "party": "0:255:255:255",
+      "dialogue": "",
+      "battle": "",
+      "flag_0128": "0"
+    },
+    {
+      "scenario": "guards",
+      "stage": "dialogue",
+      "frame": "45",
+      "event_offset": "0x029B97",
+      "terra_x": "38",
+      "terra_y": "38",
+      "wedge_x": "0",
+      "wedge_y": "0",
+      "vicks_x": "0",
+      "vicks_y": "0",
+      "npc1_x": "37",
+      "npc1_y": "35",
+      "npc2_x": "39",
+      "npc2_y": "35",
+      "party": "0:14:15:255",
+      "dialogue": "13",
+      "battle": "",
+      "flag_0128": "0"
+    },
+    {
+      "scenario": "guards",
+      "stage": "battle",
+      "frame": "73",
+      "event_offset": "0x029BA4",
+      "terra_x": "38",
+      "terra_y": "38",
+      "wedge_x": "0",
+      "wedge_y": "0",
+      "vicks_x": "0",
+      "vicks_y": "0",
+      "npc1_x": "37",
+      "npc1_y": "38",
+      "npc2_x": "39",
+      "npc2_y": "38",
+      "party": "0:14:15:255",
+      "dialogue": "",
+      "battle": "1",
+      "flag_0128": "0"
+    },
+    {
+      "scenario": "gated",
+      "stage": "returned",
+      "frame": "1",
+      "event_offset": "0x005EB4",
+      "terra_x": "38",
+      "terra_y": "38",
+      "wedge_x": "0",
+      "wedge_y": "0",
+      "vicks_x": "0",
+      "vicks_y": "0",
+      "npc1_x": "0",
+      "npc1_y": "0",
+      "npc2_x": "0",
+      "npc2_y": "0",
+      "party": "0:14:15:255",
+      "dialogue": "",
+      "battle": "",
+      "flag_0128": "1"
+    }
+  ],
+  "actual_walk_trigger_captures": [
+    {
+      "stage": "00-backtracking-dialogue",
+      "map": "19",
+      "x": "38",
+      "y": "50",
+      "gil": "3000",
+      "party": "0:255:255:255",
+      "dialogue": "12",
+      "event_cpu": "0xCC9B57",
+      "battle": "",
+      "flag_0128": "0"
+    },
+    {
+      "stage": "01-backtracking-returned",
+      "map": "19",
+      "x": "38",
+      "y": "49",
+      "gil": "3000",
+      "party": "0:255:255:255",
+      "dialogue": "",
+      "event_cpu": "",
+      "battle": "",
+      "flag_0128": "0"
+    },
+    {
+      "stage": "02-guards-dialogue",
+      "map": "19",
+      "x": "38",
+      "y": "38",
+      "gil": "3000",
+      "party": "0:14:15:255",
+      "dialogue": "13",
+      "event_cpu": "0xCC9B97",
+      "battle": "",
+      "flag_0128": "0"
+    },
+    {
+      "stage": "03-guards-battle-boundary",
+      "map": "19",
+      "x": "38",
+      "y": "38",
+      "gil": "3000",
+      "party": "0:14:15:255",
+      "dialogue": "",
+      "event_cpu": "0xCC9BA4",
+      "battle": "1",
+      "flag_0128": "0"
+    }
+  ],
+  "snapshot_roundtrips": "Native capture asserts byte-identical VM/actor snapshots at DLG_12 and battle-group-1 boundary",
+  "npc_property_changed_bytes": 6,
+  "npc_property_changed_records": 4,
+  "emulator_reference": false,
+  "limitations": [
+    "First guard scene stops at battle request; no battle or victory is simulated",
+    "General script, startup, NPC interaction and collision coverage incomplete",
+    "Full game initialization/NPC switches, original timing and PPU presentation unvalidated"
+  ]
+}

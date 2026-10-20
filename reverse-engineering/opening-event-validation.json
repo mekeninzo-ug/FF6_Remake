@@ -1,0 +1,641 @@
+{
+  "source_commit": "813013276c952fdd27edcf7b8b86f17291542cbf",
+  "source_sha256": "64E7C99F83DA0B7B8D69DFCE3C8FF1C6E6FD66B709CBB677A3284020B3756A42",
+  "macro_sha256": "876362DE44CA7CC01A3B409C5F957CC1D7822D29B7D7DEE1E38957E140FBD1B2",
+  "object_interpreter_source_sha256": "8F0A586479C478D840ACE3F8050DFB5C00CED4C66EC0621EA8C0CCD586E7E7C9",
+  "executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "entry_cpu": "0xCC9A4F",
+  "entry_file_offset": "0x0C9A4F",
+  "encoded_bytes_compared_to_both_exports": 134,
+  "encoded_bytes_compared_to_both_roms": 134,
+  "native_instruction_records_checked": 80,
+  "return_event_offset": "0x029AD5",
+  "source_command_bindings": [
+    {
+      "offset": 170575,
+      "opcode": 107,
+      "length": 6,
+      "object": null,
+      "source_line": 100723
+    },
+    {
+      "offset": 170581,
+      "opcode": 146,
+      "length": 1,
+      "object": null,
+      "source_line": 100724
+    },
+    {
+      "offset": 170582,
+      "opcode": 241,
+      "length": 3,
+      "object": null,
+      "source_line": 100725
+    },
+    {
+      "offset": 170585,
+      "opcode": 211,
+      "length": 2,
+      "object": null,
+      "source_line": 100726
+    },
+    {
+      "offset": 170587,
+      "opcode": 246,
+      "length": 4,
+      "object": null,
+      "source_line": 100727
+    },
+    {
+      "offset": 170591,
+      "opcode": 146,
+      "length": 1,
+      "object": null,
+      "source_line": 100728
+    },
+    {
+      "offset": 170592,
+      "opcode": 0,
+      "length": 2,
+      "object": null,
+      "source_line": 100729
+    },
+    {
+      "offset": 170594,
+      "opcode": 215,
+      "length": 1,
+      "object": 0,
+      "source_line": 100730
+    },
+    {
+      "offset": 170595,
+      "opcode": 255,
+      "length": 1,
+      "object": 0,
+      "source_line": 100731
+    },
+    {
+      "offset": 170596,
+      "opcode": 60,
+      "length": 5,
+      "object": null,
+      "source_line": 100732
+    },
+    {
+      "offset": 170601,
+      "opcode": 65,
+      "length": 2,
+      "object": null,
+      "source_line": 100733
+    },
+    {
+      "offset": 170603,
+      "opcode": 14,
+      "length": 2,
+      "object": null,
+      "source_line": 100734
+    },
+    {
+      "offset": 170605,
+      "opcode": 213,
+      "length": 3,
+      "object": 14,
+      "source_line": 100735
+    },
+    {
+      "offset": 170608,
+      "opcode": 194,
+      "length": 1,
+      "object": 14,
+      "source_line": 100736
+    },
+    {
+      "offset": 170609,
+      "opcode": 255,
+      "length": 1,
+      "object": 14,
+      "source_line": 100737
+    },
+    {
+      "offset": 170610,
+      "opcode": 15,
+      "length": 2,
+      "object": null,
+      "source_line": 100738
+    },
+    {
+      "offset": 170612,
+      "opcode": 213,
+      "length": 3,
+      "object": 15,
+      "source_line": 100739
+    },
+    {
+      "offset": 170615,
+      "opcode": 194,
+      "length": 1,
+      "object": 15,
+      "source_line": 100740
+    },
+    {
+      "offset": 170616,
+      "opcode": 255,
+      "length": 1,
+      "object": 15,
+      "source_line": 100741
+    },
+    {
+      "offset": 170617,
+      "opcode": 65,
+      "length": 2,
+      "object": null,
+      "source_line": 100742
+    },
+    {
+      "offset": 170619,
+      "opcode": 65,
+      "length": 2,
+      "object": null,
+      "source_line": 100743
+    },
+    {
+      "offset": 170621,
+      "opcode": 69,
+      "length": 1,
+      "object": null,
+      "source_line": 100744
+    },
+    {
+      "offset": 170622,
+      "opcode": 0,
+      "length": 2,
+      "object": null,
+      "source_line": 100745
+    },
+    {
+      "offset": 170624,
+      "opcode": 204,
+      "length": 1,
+      "object": 0,
+      "source_line": 100746
+    },
+    {
+      "offset": 170625,
+      "opcode": 255,
+      "length": 1,
+      "object": 0,
+      "source_line": 100747
+    },
+    {
+      "offset": 170626,
+      "opcode": 14,
+      "length": 2,
+      "object": null,
+      "source_line": 100748
+    },
+    {
+      "offset": 170628,
+      "opcode": 204,
+      "length": 1,
+      "object": 14,
+      "source_line": 100749
+    },
+    {
+      "offset": 170629,
+      "opcode": 255,
+      "length": 1,
+      "object": 14,
+      "source_line": 100750
+    },
+    {
+      "offset": 170630,
+      "opcode": 15,
+      "length": 2,
+      "object": null,
+      "source_line": 100751
+    },
+    {
+      "offset": 170632,
+      "opcode": 204,
+      "length": 1,
+      "object": 15,
+      "source_line": 100752
+    },
+    {
+      "offset": 170633,
+      "opcode": 255,
+      "length": 1,
+      "object": 15,
+      "source_line": 100753
+    },
+    {
+      "offset": 170634,
+      "opcode": 68,
+      "length": 3,
+      "object": null,
+      "source_line": 100754
+    },
+    {
+      "offset": 170637,
+      "opcode": 68,
+      "length": 3,
+      "object": null,
+      "source_line": 100755
+    },
+    {
+      "offset": 170640,
+      "opcode": 68,
+      "length": 3,
+      "object": null,
+      "source_line": 100756
+    },
+    {
+      "offset": 170643,
+      "opcode": 132,
+      "length": 3,
+      "object": null,
+      "source_line": 100757
+    },
+    {
+      "offset": 170646,
+      "opcode": 57,
+      "length": 1,
+      "object": null,
+      "source_line": 100758
+    },
+    {
+      "offset": 170647,
+      "opcode": 89,
+      "length": 2,
+      "object": null,
+      "source_line": 100759
+    },
+    {
+      "offset": 170649,
+      "opcode": 0,
+      "length": 2,
+      "object": null,
+      "source_line": 100760
+    },
+    {
+      "offset": 170651,
+      "opcode": 156,
+      "length": 1,
+      "object": 0,
+      "source_line": 100761
+    },
+    {
+      "offset": 170652,
+      "opcode": 255,
+      "length": 1,
+      "object": 0,
+      "source_line": 100762
+    },
+    {
+      "offset": 170653,
+      "opcode": 15,
+      "length": 2,
+      "object": null,
+      "source_line": 100763
+    },
+    {
+      "offset": 170655,
+      "opcode": 148,
+      "length": 1,
+      "object": 15,
+      "source_line": 100764
+    },
+    {
+      "offset": 170656,
+      "opcode": 129,
+      "length": 1,
+      "object": 15,
+      "source_line": 100765
+    },
+    {
+      "offset": 170657,
+      "opcode": 128,
+      "length": 1,
+      "object": 15,
+      "source_line": 100766
+    },
+    {
+      "offset": 170658,
+      "opcode": 255,
+      "length": 1,
+      "object": 15,
+      "source_line": 100767
+    },
+    {
+      "offset": 170659,
+      "opcode": 14,
+      "length": 2,
+      "object": null,
+      "source_line": 100768
+    },
+    {
+      "offset": 170661,
+      "opcode": 136,
+      "length": 1,
+      "object": 14,
+      "source_line": 100769
+    },
+    {
+      "offset": 170662,
+      "opcode": 207,
+      "length": 1,
+      "object": 14,
+      "source_line": 100770
+    },
+    {
+      "offset": 170663,
+      "opcode": 224,
+      "length": 2,
+      "object": 14,
+      "source_line": 100771
+    },
+    {
+      "offset": 170665,
+      "opcode": 136,
+      "length": 1,
+      "object": 14,
+      "source_line": 100772
+    },
+    {
+      "offset": 170666,
+      "opcode": 129,
+      "length": 1,
+      "object": 14,
+      "source_line": 100773
+    },
+    {
+      "offset": 170667,
+      "opcode": 204,
+      "length": 1,
+      "object": 14,
+      "source_line": 100774
+    },
+    {
+      "offset": 170668,
+      "opcode": 255,
+      "length": 1,
+      "object": 14,
+      "source_line": 100775
+    },
+    {
+      "offset": 170669,
+      "opcode": 15,
+      "length": 2,
+      "object": null,
+      "source_line": 100776
+    },
+    {
+      "offset": 170671,
+      "opcode": 224,
+      "length": 2,
+      "object": 15,
+      "source_line": 100777
+    },
+    {
+      "offset": 170673,
+      "opcode": 207,
+      "length": 1,
+      "object": 15,
+      "source_line": 100778
+    },
+    {
+      "offset": 170674,
+      "opcode": 255,
+      "length": 1,
+      "object": 15,
+      "source_line": 100779
+    },
+    {
+      "offset": 170675,
+      "opcode": 75,
+      "length": 3,
+      "object": null,
+      "source_line": 100780
+    },
+    {
+      "offset": 170678,
+      "opcode": 120,
+      "length": 2,
+      "object": null,
+      "source_line": 100784
+    },
+    {
+      "offset": 170680,
+      "opcode": 120,
+      "length": 2,
+      "object": null,
+      "source_line": 100785
+    },
+    {
+      "offset": 170682,
+      "opcode": 14,
+      "length": 2,
+      "object": null,
+      "source_line": 100786
+    },
+    {
+      "offset": 170684,
+      "opcode": 128,
+      "length": 1,
+      "object": 14,
+      "source_line": 100787
+    },
+    {
+      "offset": 170685,
+      "opcode": 255,
+      "length": 1,
+      "object": 14,
+      "source_line": 100788
+    },
+    {
+      "offset": 170686,
+      "opcode": 14,
+      "length": 2,
+      "object": null,
+      "source_line": 100789
+    },
+    {
+      "offset": 170688,
+      "opcode": 136,
+      "length": 1,
+      "object": 14,
+      "source_line": 100790
+    },
+    {
+      "offset": 170689,
+      "opcode": 209,
+      "length": 1,
+      "object": 14,
+      "source_line": 100791
+    },
+    {
+      "offset": 170690,
+      "opcode": 255,
+      "length": 1,
+      "object": 14,
+      "source_line": 100792
+    },
+    {
+      "offset": 170691,
+      "opcode": 15,
+      "length": 2,
+      "object": null,
+      "source_line": 100793
+    },
+    {
+      "offset": 170693,
+      "opcode": 135,
+      "length": 1,
+      "object": 15,
+      "source_line": 100794
+    },
+    {
+      "offset": 170694,
+      "opcode": 136,
+      "length": 1,
+      "object": 15,
+      "source_line": 100795
+    },
+    {
+      "offset": 170695,
+      "opcode": 209,
+      "length": 1,
+      "object": 15,
+      "source_line": 100796
+    },
+    {
+      "offset": 170696,
+      "opcode": 255,
+      "length": 1,
+      "object": 15,
+      "source_line": 100797
+    },
+    {
+      "offset": 170697,
+      "opcode": 69,
+      "length": 1,
+      "object": null,
+      "source_line": 100798
+    },
+    {
+      "offset": 170698,
+      "opcode": 0,
+      "length": 2,
+      "object": null,
+      "source_line": 100799
+    },
+    {
+      "offset": 170700,
+      "opcode": 128,
+      "length": 1,
+      "object": 0,
+      "source_line": 100800
+    },
+    {
+      "offset": 170701,
+      "opcode": 255,
+      "length": 1,
+      "object": 0,
+      "source_line": 100801
+    },
+    {
+      "offset": 170702,
+      "opcode": 54,
+      "length": 2,
+      "object": null,
+      "source_line": 100802
+    },
+    {
+      "offset": 170704,
+      "opcode": 54,
+      "length": 2,
+      "object": null,
+      "source_line": 100803
+    },
+    {
+      "offset": 170706,
+      "opcode": 210,
+      "length": 2,
+      "object": null,
+      "source_line": 100804
+    },
+    {
+      "offset": 170708,
+      "opcode": 254,
+      "length": 1,
+      "object": null,
+      "source_line": 100805
+    }
+  ],
+  "snapshots": [
+    {
+      "stage": "dialogue_11",
+      "event_offset": "0x029AB6",
+      "map": "19",
+      "gil": "3000",
+      "party": "0:14:15:255",
+      "terra_x": "38",
+      "terra_y": "50",
+      "terra_vehicle": "192",
+      "wedge_x": "38",
+      "wedge_y": "54",
+      "wedge_visible": "1",
+      "vicks_x": "40",
+      "vicks_y": "53",
+      "vicks_visible": "1",
+      "switch_01cc": "0",
+      "switch_01c1": "0"
+    },
+    {
+      "stage": "returned",
+      "event_offset": "0x029AD5",
+      "map": "19",
+      "gil": "3000",
+      "party": "0:14:15:255",
+      "terra_x": "38",
+      "terra_y": "49",
+      "terra_vehicle": "192",
+      "wedge_x": "38",
+      "wedge_y": "50",
+      "wedge_visible": "0",
+      "vicks_x": "38",
+      "vicks_y": "50",
+      "vicks_visible": "0",
+      "switch_01cc": "0",
+      "switch_01c1": "1"
+    }
+  ],
+  "retained_presentation_requests": [
+    "LoadMap { word: 19, x: 38, y: 58, flags: 64 }",
+    "WaitFrames(30)",
+    "SongFadeIn { song: 57, duration: 160 }",
+    "SpcCommand([130, 0, 255])",
+    "WaitFrames(30)",
+    "ObjectBlock { object: 0, start: 170594, bytes: 2, awaited: true }",
+    "ObjectBlock { object: 14, start: 170605, bytes: 5, awaited: true }",
+    "ObjectBlock { object: 15, start: 170612, bytes: 5, awaited: true }",
+    "SortObjects",
+    "ObjectBlock { object: 0, start: 170624, bytes: 2, awaited: true }",
+    "ObjectBlock { object: 14, start: 170628, bytes: 2, awaited: true }",
+    "ObjectBlock { object: 15, start: 170632, bytes: 2, awaited: false }",
+    "FadeIn(4)",
+    "ObjectBlock { object: 0, start: 170651, bytes: 2, awaited: false }",
+    "ObjectBlock { object: 15, start: 170655, bytes: 4, awaited: false }",
+    "ObjectBlock { object: 14, start: 170661, bytes: 8, awaited: true }",
+    "ObjectWait { object: 14, frames: 40 }",
+    "ObjectBlock { object: 15, start: 170671, bytes: 4, awaited: true }",
+    "ObjectWait { object: 15, frames: 32 }",
+    "ObjectBlock { object: 14, start: 170684, bytes: 2, awaited: true }",
+    "ObjectBlock { object: 14, start: 170688, bytes: 3, awaited: false }",
+    "ObjectBlock { object: 15, start: 170693, bytes: 4, awaited: true }",
+    "SortObjects",
+    "ObjectBlock { object: 0, start: 170700, bytes: 2, awaited: true }"
+  ],
+  "validation_mode": "Structural endpoint decoder; live scheduling is audited separately by verify_opening_timeline.py",
+  "limitations": "This structural pass executes object blocks sequentially to endpoints. It does not validate parallel timing, fades, audio or vehicle rendering."
+}

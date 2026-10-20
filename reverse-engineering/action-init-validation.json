@@ -1,0 +1,26 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "action_initialization_cases": 8192,
+  "target_instructions": 209373,
+  "patched_helper_cpu": "C267E1",
+  "patched_helper_file_offset": "0267E1",
+  "code_regions": [
+    {
+      "cpu": "C20276",
+      "file_offset": "020276",
+      "length": 102,
+      "changed_bytes": 4,
+      "sha256": "73b34cc8e3824f950b9fe556200abecbab4f4e12e8b6ecdea0e63e2208a65ab4"
+    },
+    {
+      "cpu": "C267E1",
+      "file_offset": "0267E1",
+      "length": 17,
+      "changed_bytes": 17,
+      "sha256": "3285c4c2f8cfbc157baaf2f44bbfd3a37332284732b1643f869d119ca4eb5fb5"
+    }
+  ],
+  "command_property_flag_records": 32,
+  "reference_kind": "actual target queued-action/Imp helper/RNG bit-selection instructions; not full action execution",
+  "result": "pass"
+}

@@ -1,0 +1,16 @@
+scenario,object,enabled,visible,graphic,palette,character_party,active_party
+backtrack,0,1,1,0,2,1,1
+backtrack,14,1,0,14,1,1,1
+backtrack,15,1,0,14,1,1,1
+backtrack,16,0,0,52,1,0,1
+backtrack,17,0,0,52,1,0,1
+guards,0,1,1,0,2,1,1
+guards,14,1,0,14,1,1,1
+guards,15,1,0,14,1,1,1
+guards,16,1,1,52,1,0,1
+guards,17,1,1,52,1,0,1
+gated,0,1,1,0,2,1,1
+gated,14,1,0,14,1,1,1
+gated,15,1,0,14,1,1,1
+gated,16,0,0,52,1,0,1
+gated,17,0,0,52,1,0,1

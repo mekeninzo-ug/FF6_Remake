@@ -1,0 +1,1002 @@
+[
+  {
+    "case": 1,
+    "instructions": [
+      {
+        "cpu": "C20B83",
+        "file_offset": "020B83",
+        "opcode": "08",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C20B84",
+        "file_offset": "020B84",
+        "opcode": "E2",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B86",
+        "file_offset": "020B86",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B89",
+        "file_offset": "020B89",
+        "opcode": "D0",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B8E",
+        "file_offset": "020B8E",
+        "opcode": "AD",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B91",
+        "file_offset": "020B91",
+        "opcode": "30",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B93",
+        "file_offset": "020B93",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B96",
+        "file_offset": "020B96",
+        "opcode": "80",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9B",
+        "file_offset": "020B9B",
+        "opcode": "64",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9D",
+        "file_offset": "020B9D",
+        "opcode": "B9",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA0",
+        "file_offset": "020BA0",
+        "opcode": "0A",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA1",
+        "file_offset": "020BA1",
+        "opcode": "30",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA3",
+        "file_offset": "020BA3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA6",
+        "file_offset": "020BA6",
+        "opcode": "85",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA8",
+        "file_offset": "020BA8",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BAB",
+        "file_offset": "020BAB",
+        "opcode": "89",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BAD",
+        "file_offset": "020BAD",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BD3",
+        "file_offset": "020BD3",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BD6",
+        "file_offset": "020BD6",
+        "opcode": "F0",
+        "a": 51,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BD8",
+        "file_offset": "020BD8",
+        "opcode": "AD",
+        "a": 51,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BDB",
+        "file_offset": "020BDB",
+        "opcode": "49",
+        "a": 240,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BDD",
+        "file_offset": "020BDD",
+        "opcode": "2D",
+        "a": 15,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BE0",
+        "file_offset": "020BE0",
+        "opcode": "F0",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BE2",
+        "file_offset": "020BE2",
+        "opcode": "B9",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BE5",
+        "file_offset": "020BE5",
+        "opcode": "2C",
+        "a": 30,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BE8",
+        "file_offset": "020BE8",
+        "opcode": "F0",
+        "a": 30,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BEA",
+        "file_offset": "020BEA",
+        "opcode": "A5",
+        "a": 30,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BEC",
+        "file_offset": "020BEC",
+        "opcode": "49",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BEE",
+        "file_offset": "020BEE",
+        "opcode": "85",
+        "a": 1,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BF0",
+        "file_offset": "020BF0",
+        "opcode": "80",
+        "a": 1,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C1E",
+        "file_offset": "020C1E",
+        "opcode": "AD",
+        "a": 1,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C21",
+        "file_offset": "020C21",
+        "opcode": "C9",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C23",
+        "file_offset": "020C23",
+        "opcode": "D0",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C28",
+        "file_offset": "020C28",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2B",
+        "file_offset": "020C2B",
+        "opcode": "28",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2C",
+        "file_offset": "020C2C",
+        "opcode": "60",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 100,
+    "instructions": [
+      {
+        "cpu": "C20B83",
+        "file_offset": "020B83",
+        "opcode": "08",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C20B84",
+        "file_offset": "020B84",
+        "opcode": "E2",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B86",
+        "file_offset": "020B86",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B89",
+        "file_offset": "020B89",
+        "opcode": "D0",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B8E",
+        "file_offset": "020B8E",
+        "opcode": "AD",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B91",
+        "file_offset": "020B91",
+        "opcode": "30",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B93",
+        "file_offset": "020B93",
+        "opcode": "20",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B96",
+        "file_offset": "020B96",
+        "opcode": "80",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9B",
+        "file_offset": "020B9B",
+        "opcode": "64",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9D",
+        "file_offset": "020B9D",
+        "opcode": "B9",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA0",
+        "file_offset": "020BA0",
+        "opcode": "0A",
+        "a": 64,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA1",
+        "file_offset": "020BA1",
+        "opcode": "30",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFA",
+        "file_offset": "020BFA",
+        "opcode": "64",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFC",
+        "file_offset": "020BFC",
+        "opcode": "64",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFE",
+        "file_offset": "020BFE",
+        "opcode": "80",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C1E",
+        "file_offset": "020C1E",
+        "opcode": "AD",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C21",
+        "file_offset": "020C21",
+        "opcode": "C9",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C23",
+        "file_offset": "020C23",
+        "opcode": "D0",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C28",
+        "file_offset": "020C28",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2B",
+        "file_offset": "020C2B",
+        "opcode": "28",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2C",
+        "file_offset": "020C2C",
+        "opcode": "60",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 555,
+    "instructions": [
+      {
+        "cpu": "C20B83",
+        "file_offset": "020B83",
+        "opcode": "08",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C20B84",
+        "file_offset": "020B84",
+        "opcode": "E2",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B86",
+        "file_offset": "020B86",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B89",
+        "file_offset": "020B89",
+        "opcode": "D0",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B8E",
+        "file_offset": "020B8E",
+        "opcode": "AD",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B91",
+        "file_offset": "020B91",
+        "opcode": "30",
+        "a": 129,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B98",
+        "file_offset": "020B98",
+        "opcode": "20",
+        "a": 129,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9B",
+        "file_offset": "020B9B",
+        "opcode": "64",
+        "a": 129,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9D",
+        "file_offset": "020B9D",
+        "opcode": "B9",
+        "a": 129,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA0",
+        "file_offset": "020BA0",
+        "opcode": "0A",
+        "a": 66,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA1",
+        "file_offset": "020BA1",
+        "opcode": "30",
+        "a": 132,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFA",
+        "file_offset": "020BFA",
+        "opcode": "64",
+        "a": 132,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFC",
+        "file_offset": "020BFC",
+        "opcode": "64",
+        "a": 132,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFE",
+        "file_offset": "020BFE",
+        "opcode": "80",
+        "a": 132,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C1E",
+        "file_offset": "020C1E",
+        "opcode": "AD",
+        "a": 132,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C21",
+        "file_offset": "020C21",
+        "opcode": "C9",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C23",
+        "file_offset": "020C23",
+        "opcode": "D0",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C28",
+        "file_offset": "020C28",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2B",
+        "file_offset": "020C2B",
+        "opcode": "28",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2C",
+        "file_offset": "020C2C",
+        "opcode": "60",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 1000,
+    "instructions": [
+      {
+        "cpu": "C20B83",
+        "file_offset": "020B83",
+        "opcode": "08",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      },
+      {
+        "cpu": "C20B84",
+        "file_offset": "020B84",
+        "opcode": "E2",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B86",
+        "file_offset": "020B86",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B89",
+        "file_offset": "020B89",
+        "opcode": "D0",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B8E",
+        "file_offset": "020B8E",
+        "opcode": "AD",
+        "a": 60,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B91",
+        "file_offset": "020B91",
+        "opcode": "30",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B93",
+        "file_offset": "020B93",
+        "opcode": "20",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B96",
+        "file_offset": "020B96",
+        "opcode": "80",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9B",
+        "file_offset": "020B9B",
+        "opcode": "64",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20B9D",
+        "file_offset": "020B9D",
+        "opcode": "B9",
+        "a": 3,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA0",
+        "file_offset": "020BA0",
+        "opcode": "0A",
+        "a": 64,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BA1",
+        "file_offset": "020BA1",
+        "opcode": "30",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFA",
+        "file_offset": "020BFA",
+        "opcode": "64",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFC",
+        "file_offset": "020BFC",
+        "opcode": "64",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20BFE",
+        "file_offset": "020BFE",
+        "opcode": "80",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C1E",
+        "file_offset": "020C1E",
+        "opcode": "AD",
+        "a": 128,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C21",
+        "file_offset": "020C21",
+        "opcode": "C9",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 50,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C23",
+        "file_offset": "020C23",
+        "opcode": "D0",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C28",
+        "file_offset": "020C28",
+        "opcode": "20",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2B",
+        "file_offset": "020C2B",
+        "opcode": "28",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 176,
+        "sp": 510
+      },
+      {
+        "cpu": "C20C2C",
+        "file_offset": "020C2C",
+        "opcode": "60",
+        "a": 0,
+        "x": 0,
+        "y": 8,
+        "p": 48,
+        "sp": 511
+      }
+    ]
+  }
+]

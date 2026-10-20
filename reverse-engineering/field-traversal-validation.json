@@ -1,0 +1,98 @@
+{
+  "executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "patched_rom_sha256": "F385C715B3088D7D697171EC76B93B8F32623D63B3672A364121269A9E41DBB9",
+  "successful_tile_steps": 121,
+  "transitions": [
+    {
+      "from_map": 19,
+      "to_map": 39,
+      "destination": [
+        26,
+        52
+      ],
+      "record_pc": "0x2DF8A5"
+    },
+    {
+      "from_map": 39,
+      "to_map": 41,
+      "destination": [
+        38,
+        33
+      ],
+      "record_pc": "0x2DF923"
+    },
+    {
+      "from_map": 41,
+      "to_map": 42,
+      "destination": [
+        86,
+        28
+      ],
+      "record_pc": "0x2DF931"
+    },
+    {
+      "from_map": 42,
+      "to_map": 41,
+      "destination": [
+        42,
+        6
+      ],
+      "record_pc": "0x1FC328"
+    }
+  ],
+  "frame_comparisons": [
+    {
+      "frame": "00-map-0019",
+      "map": 19,
+      "position": [
+        38,
+        49
+      ],
+      "width": 64,
+      "different_background_pixels": 0
+    },
+    {
+      "frame": "01-map-0039",
+      "map": 39,
+      "position": [
+        26,
+        52
+      ],
+      "width": 64,
+      "different_background_pixels": 0
+    },
+    {
+      "frame": "02-map-0041",
+      "map": 41,
+      "position": [
+        38,
+        33
+      ],
+      "width": 128,
+      "different_background_pixels": 0
+    },
+    {
+      "frame": "03-map-0042",
+      "map": 42,
+      "position": [
+        86,
+        28
+      ],
+      "width": 128,
+      "different_background_pixels": 0
+    },
+    {
+      "frame": "04-map-0041",
+      "map": 41,
+      "position": [
+        42,
+        6
+      ],
+      "width": 128,
+      "different_background_pixels": 0
+    }
+  ],
+  "emulator_reference": false,
+  "story_events_enabled": false,
+  "limitations": "Explicit geometry-only mode disables story triggers. Static collision and direct sub-map exits only; story play stops at the unimplemented first guard battle. Startup scripts, fades, parent/world maps and bridge state are not validated."
+}

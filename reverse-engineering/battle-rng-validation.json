@@ -1,0 +1,100 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "bounded_rng_cases": 65536,
+  "bit_selection_cases": 2048,
+  "sequence_rows": 2560,
+  "initial_gauge_cases": 1024,
+  "guard_ai_cases": 256,
+  "guard_choice_counts": {
+    "239": 85,
+    "238": 171
+  },
+  "rng_bit_target_instructions": 1110495,
+  "initial_gauge_target_instructions": 1570032,
+  "table_comparison": [
+    {
+      "name": "rng_table",
+      "cpu": "C0FD00",
+      "file_offset": "00FD00",
+      "length": 256,
+      "changed_bytes": 0,
+      "sha256": "fa4ab9025d0922fdafa6993e1559f96ceb82c5c7dc59c53caffd501b56a13b00"
+    },
+    {
+      "name": "ai_pointers",
+      "cpu": "CF8400",
+      "file_offset": "0F8400",
+      "length": 768,
+      "changed_bytes": 717,
+      "sha256": "87614515aee2892476898f9c9222870302b419e6dce05069dfeb8698396c2ad6"
+    },
+    {
+      "name": "ai_script",
+      "cpu": "CF8700",
+      "file_offset": "0F8700",
+      "length": 14672,
+      "changed_bytes": 13770,
+      "sha256": "a651d7764362ee458c452bd3491053b0842a90df1ea209e538eba1b9ecebe2e9"
+    }
+  ],
+  "unchanged_code_regions": [
+    {
+      "name": "battle_loop_rng_step",
+      "cpu": "C20019",
+      "file_offset": "020019",
+      "length": 2,
+      "sha256": "481da4843fbfb790eb09c5c5a7a0365c3aeb3d800f935b0a7f7a8ddc5509524c"
+    },
+    {
+      "name": "battle_seed",
+      "cpu": "C22440",
+      "file_offset": "022440",
+      "length": 7,
+      "sha256": "d66972011ac225b2f8309d99cb05f9dfdaf4457471b0666d8616fff5c4d4398b"
+    },
+    {
+      "name": "battle_rng",
+      "cpu": "C24B53",
+      "file_offset": "024B53",
+      "length": 40,
+      "sha256": "82b80522e0a334e10ab720d5fceb794abb2de0b7083c3cbfb8c21e1c0d6b0d8a"
+    },
+    {
+      "name": "bit_selection",
+      "cpu": "C251F0",
+      "file_offset": "0251F0",
+      "length": 121,
+      "sha256": "c193f3dafb4d48d47028f9c276c40aaaf9a952b2b53142284b4d0a9759e52610"
+    },
+    {
+      "name": "initial_gauges",
+      "cpu": "C22575",
+      "file_offset": "022575",
+      "length": 141,
+      "sha256": "c66f68d0c759a887373968cfe6aaec9ef86ed3542b4b6d99f5c2b9ba1fff572c"
+    },
+    {
+      "name": "ai_pointer_load",
+      "cpu": "C22D71",
+      "file_offset": "022D71",
+      "length": 17,
+      "sha256": "6c2a75723691f93c15a40df733933b33d7d0be00ee3546a0a24256136058e04f"
+    },
+    {
+      "name": "ai_fetch",
+      "cpu": "C21A5F",
+      "file_offset": "021A5F",
+      "length": 21,
+      "sha256": "28642f933a2851c674d6b93cde2564a64fce943ec3c6b6824618858ccf48be7a"
+    },
+    {
+      "name": "ai_triple_selection",
+      "cpu": "C21A80",
+      "file_offset": "021A80",
+      "length": 17,
+      "sha256": "cc436e1313e0024cc77ebdef02f2169863818ef9c41706a4023a49b755adb73e"
+    }
+  ],
+  "reference_kind": "bounded actual target RNG/bit-selection/InitGauge/AIRand3 instructions and raw table; no complete battle runtime capture",
+  "result": "pass"
+}

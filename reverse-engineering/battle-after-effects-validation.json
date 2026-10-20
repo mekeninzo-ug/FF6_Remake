@@ -1,0 +1,11 @@
+{
+  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "cases": {
+    "condemn": 65536,
+    "quetzalli": 2048,
+    "near-fatal": 4096
+  },
+  "target_instructions": 3823134,
+  "reference_kind": "actual target StartCondemn, QuetzEffect and NearFatalEffect including RNG, command allocation and immediate-action storage; no hooks; not full AfterAction2",
+  "result": "pass"
+}

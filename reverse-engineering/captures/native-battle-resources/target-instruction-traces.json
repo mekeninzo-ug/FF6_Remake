@@ -1,0 +1,432 @@
+[
+  {
+    "case": 0,
+    "instructions": [
+      {
+        "cpu": "C232B1",
+        "file_offset": "0232B1",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B4",
+        "file_offset": "0232B4",
+        "opcode": "F0",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 18,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 1,
+    "instructions": [
+      {
+        "cpu": "C232B1",
+        "file_offset": "0232B1",
+        "opcode": "AD",
+        "a": 0,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B4",
+        "file_offset": "0232B4",
+        "opcode": "F0",
+        "a": 41940,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B6",
+        "file_offset": "0232B6",
+        "opcode": "38",
+        "a": 41940,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B7",
+        "file_offset": "0232B7",
+        "opcode": "BD",
+        "a": 41940,
+        "x": 2,
+        "y": 0,
+        "p": 145,
+        "sp": 511
+      },
+      {
+        "cpu": "C232BA",
+        "file_offset": "0232BA",
+        "opcode": "ED",
+        "a": 1,
+        "x": 2,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232BD",
+        "file_offset": "0232BD",
+        "opcode": "9C",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232C0",
+        "file_offset": "0232C0",
+        "opcode": "B0",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232C2",
+        "file_offset": "0232C2",
+        "opcode": "E0",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232C4",
+        "file_offset": "0232C4",
+        "opcode": "90",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232CA",
+        "file_offset": "0232CA",
+        "opcode": "20",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232CD",
+        "file_offset": "0232CD",
+        "opcode": "64",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232CF",
+        "file_offset": "0232CF",
+        "opcode": "64",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232D1",
+        "file_offset": "0232D1",
+        "opcode": "A9",
+        "a": 23597,
+        "x": 2,
+        "y": 0,
+        "p": 144,
+        "sp": 511
+      },
+      {
+        "cpu": "C232D4",
+        "file_offset": "0232D4",
+        "opcode": "1C",
+        "a": 2,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232D7",
+        "file_offset": "0232D7",
+        "opcode": "A9",
+        "a": 2,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232DA",
+        "file_offset": "0232DA",
+        "opcode": "20",
+        "a": 10242,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232DD",
+        "file_offset": "0232DD",
+        "opcode": "4C",
+        "a": 10242,
+        "x": 2,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 20,
+    "instructions": [
+      {
+        "cpu": "C232B1",
+        "file_offset": "0232B1",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B4",
+        "file_offset": "0232B4",
+        "opcode": "F0",
+        "a": 20,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B6",
+        "file_offset": "0232B6",
+        "opcode": "38",
+        "a": 20,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B7",
+        "file_offset": "0232B7",
+        "opcode": "BD",
+        "a": 20,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232BA",
+        "file_offset": "0232BA",
+        "opcode": "ED",
+        "a": 20,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232BD",
+        "file_offset": "0232BD",
+        "opcode": "9C",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232C0",
+        "file_offset": "0232C0",
+        "opcode": "B0",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E0",
+        "file_offset": "0232E0",
+        "opcode": "9D",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E3",
+        "file_offset": "0232E3",
+        "opcode": "A9",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E6",
+        "file_offset": "0232E6",
+        "opcode": "1D",
+        "a": 128,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E9",
+        "file_offset": "0232E9",
+        "opcode": "9D",
+        "a": 27610,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      }
+    ]
+  },
+  {
+    "case": 100,
+    "instructions": [
+      {
+        "cpu": "C232B1",
+        "file_offset": "0232B1",
+        "opcode": "AD",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B4",
+        "file_offset": "0232B4",
+        "opcode": "F0",
+        "a": 100,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B6",
+        "file_offset": "0232B6",
+        "opcode": "38",
+        "a": 100,
+        "x": 0,
+        "y": 0,
+        "p": 16,
+        "sp": 511
+      },
+      {
+        "cpu": "C232B7",
+        "file_offset": "0232B7",
+        "opcode": "BD",
+        "a": 100,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232BA",
+        "file_offset": "0232BA",
+        "opcode": "ED",
+        "a": 100,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232BD",
+        "file_offset": "0232BD",
+        "opcode": "9C",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232C0",
+        "file_offset": "0232C0",
+        "opcode": "B0",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E0",
+        "file_offset": "0232E0",
+        "opcode": "9D",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E3",
+        "file_offset": "0232E3",
+        "opcode": "A9",
+        "a": 0,
+        "x": 0,
+        "y": 0,
+        "p": 19,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E6",
+        "file_offset": "0232E6",
+        "opcode": "1D",
+        "a": 128,
+        "x": 0,
+        "y": 0,
+        "p": 17,
+        "sp": 511
+      },
+      {
+        "cpu": "C232E9",
+        "file_offset": "0232E9",
+        "opcode": "9D",
+        "a": 44275,
+        "x": 0,
+        "y": 0,
+        "p": 145,
+        "sp": 511
+      }
+    ]
+  }
+]

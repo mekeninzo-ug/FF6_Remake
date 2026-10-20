@@ -1,0 +1,64 @@
+[
+  {
+    "map": 200,
+    "npc": 13,
+    "cpu": "0xC43FE1",
+    "file_offset": "0x043FE1",
+    "changes": [
+      {
+        "field_byte": 7,
+        "clean": 0,
+        "patched": 32
+      },
+      {
+        "field_byte": 8,
+        "clean": 10,
+        "patched": 2
+      }
+    ]
+  },
+  {
+    "map": 200,
+    "npc": 14,
+    "cpu": "0xC43FEA",
+    "file_offset": "0x043FEA",
+    "changes": [
+      {
+        "field_byte": 7,
+        "clean": 0,
+        "patched": 32
+      },
+      {
+        "field_byte": 8,
+        "clean": 10,
+        "patched": 2
+      }
+    ]
+  },
+  {
+    "map": 317,
+    "npc": 12,
+    "cpu": "0xC4574B",
+    "file_offset": "0x04574B",
+    "changes": [
+      {
+        "field_byte": 2,
+        "clean": 213,
+        "patched": 205
+      }
+    ]
+  },
+  {
+    "map": 317,
+    "npc": 25,
+    "cpu": "0xC457C0",
+    "file_offset": "0x0457C0",
+    "changes": [
+      {
+        "field_byte": 2,
+        "clean": 21,
+        "patched": 13
+      }
+    ]
+  }
+]

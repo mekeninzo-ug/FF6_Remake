@@ -1,0 +1,484 @@
+{
+  "executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
+  "patched_rom_sha256": "F385C715B3088D7D697171EC76B93B8F32623D63B3672A364121269A9E41DBB9",
+  "dash_patch": {
+    "cpu": "0xC0D674",
+    "file_offset": "0x00D674",
+    "bytes": "a9 02 48 a5 07 ea 29 80 f0 03 68 1a 48 ad df 11 29 20 f0 03 68 1a 48 68 60",
+    "input_cases_checked": 512,
+    "examples": [
+      {
+        "buttons": 0,
+        "sprint_flags": 0,
+        "speed": 2,
+        "trace": [
+          {
+            "file_offset": "0x00D674",
+            "cpu": "0xC0D674",
+            "opcode": "0xA9"
+          },
+          {
+            "file_offset": "0x00D676",
+            "cpu": "0xC0D676",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D677",
+            "cpu": "0xC0D677",
+            "opcode": "0xA5"
+          },
+          {
+            "file_offset": "0x00D679",
+            "cpu": "0xC0D679",
+            "opcode": "0xEA"
+          },
+          {
+            "file_offset": "0x00D67A",
+            "cpu": "0xC0D67A",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D67C",
+            "cpu": "0xC0D67C",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D681",
+            "cpu": "0xC0D681",
+            "opcode": "0xAD"
+          },
+          {
+            "file_offset": "0x00D684",
+            "cpu": "0xC0D684",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D686",
+            "cpu": "0xC0D686",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D68B",
+            "cpu": "0xC0D68B",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D68C",
+            "cpu": "0xC0D68C",
+            "opcode": "0x60"
+          }
+        ]
+      },
+      {
+        "buttons": 0,
+        "sprint_flags": 32,
+        "speed": 3,
+        "trace": [
+          {
+            "file_offset": "0x00D674",
+            "cpu": "0xC0D674",
+            "opcode": "0xA9"
+          },
+          {
+            "file_offset": "0x00D676",
+            "cpu": "0xC0D676",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D677",
+            "cpu": "0xC0D677",
+            "opcode": "0xA5"
+          },
+          {
+            "file_offset": "0x00D679",
+            "cpu": "0xC0D679",
+            "opcode": "0xEA"
+          },
+          {
+            "file_offset": "0x00D67A",
+            "cpu": "0xC0D67A",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D67C",
+            "cpu": "0xC0D67C",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D681",
+            "cpu": "0xC0D681",
+            "opcode": "0xAD"
+          },
+          {
+            "file_offset": "0x00D684",
+            "cpu": "0xC0D684",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D686",
+            "cpu": "0xC0D686",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D688",
+            "cpu": "0xC0D688",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D689",
+            "cpu": "0xC0D689",
+            "opcode": "0x1A"
+          },
+          {
+            "file_offset": "0x00D68A",
+            "cpu": "0xC0D68A",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D68B",
+            "cpu": "0xC0D68B",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D68C",
+            "cpu": "0xC0D68C",
+            "opcode": "0x60"
+          }
+        ]
+      },
+      {
+        "buttons": 128,
+        "sprint_flags": 0,
+        "speed": 3,
+        "trace": [
+          {
+            "file_offset": "0x00D674",
+            "cpu": "0xC0D674",
+            "opcode": "0xA9"
+          },
+          {
+            "file_offset": "0x00D676",
+            "cpu": "0xC0D676",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D677",
+            "cpu": "0xC0D677",
+            "opcode": "0xA5"
+          },
+          {
+            "file_offset": "0x00D679",
+            "cpu": "0xC0D679",
+            "opcode": "0xEA"
+          },
+          {
+            "file_offset": "0x00D67A",
+            "cpu": "0xC0D67A",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D67C",
+            "cpu": "0xC0D67C",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D67E",
+            "cpu": "0xC0D67E",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D67F",
+            "cpu": "0xC0D67F",
+            "opcode": "0x1A"
+          },
+          {
+            "file_offset": "0x00D680",
+            "cpu": "0xC0D680",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D681",
+            "cpu": "0xC0D681",
+            "opcode": "0xAD"
+          },
+          {
+            "file_offset": "0x00D684",
+            "cpu": "0xC0D684",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D686",
+            "cpu": "0xC0D686",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D68B",
+            "cpu": "0xC0D68B",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D68C",
+            "cpu": "0xC0D68C",
+            "opcode": "0x60"
+          }
+        ]
+      },
+      {
+        "buttons": 128,
+        "sprint_flags": 32,
+        "speed": 4,
+        "trace": [
+          {
+            "file_offset": "0x00D674",
+            "cpu": "0xC0D674",
+            "opcode": "0xA9"
+          },
+          {
+            "file_offset": "0x00D676",
+            "cpu": "0xC0D676",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D677",
+            "cpu": "0xC0D677",
+            "opcode": "0xA5"
+          },
+          {
+            "file_offset": "0x00D679",
+            "cpu": "0xC0D679",
+            "opcode": "0xEA"
+          },
+          {
+            "file_offset": "0x00D67A",
+            "cpu": "0xC0D67A",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D67C",
+            "cpu": "0xC0D67C",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D67E",
+            "cpu": "0xC0D67E",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D67F",
+            "cpu": "0xC0D67F",
+            "opcode": "0x1A"
+          },
+          {
+            "file_offset": "0x00D680",
+            "cpu": "0xC0D680",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D681",
+            "cpu": "0xC0D681",
+            "opcode": "0xAD"
+          },
+          {
+            "file_offset": "0x00D684",
+            "cpu": "0xC0D684",
+            "opcode": "0x29"
+          },
+          {
+            "file_offset": "0x00D686",
+            "cpu": "0xC0D686",
+            "opcode": "0xF0"
+          },
+          {
+            "file_offset": "0x00D688",
+            "cpu": "0xC0D688",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D689",
+            "cpu": "0xC0D689",
+            "opcode": "0x1A"
+          },
+          {
+            "file_offset": "0x00D68A",
+            "cpu": "0xC0D68A",
+            "opcode": "0x48"
+          },
+          {
+            "file_offset": "0x00D68B",
+            "cpu": "0xC0D68B",
+            "opcode": "0x68"
+          },
+          {
+            "file_offset": "0x00D68C",
+            "cpu": "0xC0D68C",
+            "opcode": "0x60"
+          }
+        ]
+      }
+    ]
+  },
+  "gait_patch": {
+    "cpu": "0xC0D68D",
+    "file_offset": "0x00D68D",
+    "bytes": "4a 4a 48 b9 7f 08 3a f0 03 3a d0 03 68 1a 48 68 4a 60",
+    "input_cases_checked": 1024
+  },
+  "native_speed_rows": 36,
+  "game_motion_rows": 97,
+  "scenarios": {
+    "normal-up": 21,
+    "dash-up": 13,
+    "normal-right": 21,
+    "blocked-right": 21,
+    "exit-up": 21
+  },
+  "frame_comparisons": [
+    {
+      "capture": "normal-up-00.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-up-04.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-up-08.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-up-12.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-up-16.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-up-20.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "dash-up-00.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "dash-up-04.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "dash-up-08.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "dash-up-12.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-right-00.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-right-04.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-right-08.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-right-12.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-right-16.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "normal-right-20.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "blocked-right-00.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "blocked-right-04.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "blocked-right-08.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "blocked-right-12.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "blocked-right-16.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "blocked-right-20.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "exit-up-00.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "exit-up-04.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "exit-up-08.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "exit-up-12.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "exit-up-16.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    },
+    {
+      "capture": "exit-up-20.bmp",
+      "pixels": 57344,
+      "different_pixels": 0
+    }
+  ],
+  "emulator_reference": false,
+  "limitations": [
+    "Bounded A8/Y16/DBR0 interpretation of mapped 65816 patch routines only",
+    "Nominal 60 Hz field clock",
+    "Sprint Shoes effect verified in core but not connected to equipment",
+    "No diagonal/bridge-complete collision, NPC/event/encounter or PPU timing validation"
+  ]
+}
