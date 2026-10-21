@@ -53,7 +53,7 @@ pub fn run(s:&mut Scheduler,commands:&mut CommandLists,actors:&mut[Actor;10],g:&
     Ok(effects)
 }
 // Sparse RAM snapshots are comparison fixtures, not the game's state model.
-fn snapshot(s:&Scheduler,c:&CommandLists,actors:&[Actor;10],g:&Globals,rng:&BattleRng)->String {
+pub(crate) fn snapshot(s:&Scheduler,c:&CommandLists,actors:&[Actor;10],g:&Globals,rng:&BattleRng)->String {
     let mut m=BTreeMap::<u32,u8>::new();let mut put=|address:u32,value:u16,width:usize|{for i in 0..width {m.insert(address+i as u32,(value>>(i*8)) as u8);}};
     for (addr,val,width) in [(0xb1,u16::from(g.b1),1),(0xb8,g.b8,2),(0xbe,u16::from(rng.index),1),(0x7e3404,u16::from(g.quick_target),1),(0x7e3a97,u16::from(g.colosseum),1),(0x7e2f4c,g.untargetable,2),(0x7e3f2c,g.jumping,2),(0x7e11af,u16::from(g.attacker_level),1),(0x7e3a90,u16::from(g.speed_factor),1),(0x7e3f2e,u16::from(g.used_espers),1),(0x7e3a4c,u16::from(g.max_cost),1),(0x7e3ee2,u16::from(g.morph.actor),1),(0x7e3f30,g.morph.counter,2),(0x7e3f32,g.morph.rate,2),(0x7e1cf6,u16::from(g.morph.saved),1),(0x7e3ebb,u16::from(g.morph.story_flags),1),(0x7e3a58,g.morph.changed,2),(0x7e340a,u16::from(s.queues.immediate.unwrap_or(255)),1)] {put(addr,val,width);}
     for (slot,a) in actors.iter().enumerate() {let x=slot as u32*2;let b=s.actors[slot];
@@ -94,5 +94,16 @@ pub fn capture(root:&Path,dir:&Path)->Result<(),String> {
     #[test]fn absent_actors_are_untouched_and_do_not_consume_rng() {
         let root=Path::new("extracted/twue-3.07");let props=CommandProperties::load(root).unwrap();let table=RngTable::load(root).unwrap();let mut s=Scheduler::default();let mut c=CommandLists::default();let mut a=[Actor::default();10];let mut g=Globals::default();let mut rng=BattleRng::default();s.actors[6].update_flags=255;
         assert!(run(&mut s,&mut c,&mut a,&mut g,&mut rng,&table,&props).unwrap().is_empty());assert_eq!((a[6].previous_attacker,s.actors[6].update_flags,rng.index),(255,255,0));
+    }
+    #[test]fn later_cleanup_uses_working_spell_storage_from_earlier_actor() {
+        let root=Path::new("extracted/twue-3.07");let props=CommandProperties::load(root).unwrap();let table=RngTable::load(root).unwrap();let mut s=Scheduler::default();let mut c=CommandLists::default();let mut a=[Actor::default();10];let mut g=Globals::default();let mut rng=BattleRng::default();
+        g.b8=0xabcd;g.b1=0x41;s.actors[9].flags0=1;a[9].status2=2;a[9].relic5=1;a[9].update_high=2;s.actors[0].flags0=1;s.actors[0].update_flags=64;
+        run(&mut s,&mut c,&mut a,&mut g,&mut rng,&table,&props).unwrap();let head=s.queues.immediate.unwrap() as usize;let next=c.links[head] as usize;
+        assert_eq!(c.payloads[head],crate::battle_commands::Payload {command:38,attack:18,targets:0xab25,mp_cost:0});assert_eq!(c.payloads[next],crate::battle_commands::Payload {command:44,attack:0,targets:0xab25,mp_cost:0});assert_eq!((g.b8,g.b1),(0xab25,1));
+    }
+    #[test]fn descending_actor_order_selects_first_morph_owner() {
+        let root=Path::new("extracted/twue-3.07");let props=CommandProperties::load(root).unwrap();let table=RngTable::load(root).unwrap();let mut s=Scheduler::default();let mut c=CommandLists::default();let mut a=[Actor::default();10];let mut g=Globals::default();let mut rng=BattleRng::default();g.morph.saved=16;
+        for slot in [1,2] {s.actors[slot].flags0=1;s.actors[slot].update_flags=2;a[slot].status4=8;a[slot].commands[0][0]=3;}
+        run(&mut s,&mut c,&mut a,&mut g,&mut rng,&table,&props).unwrap();assert_eq!((g.morph.actor,g.morph.counter,g.morph.rate),(4,65535,512));assert_eq!((a[1].commands[0][0],a[2].commands[0][0]),(4,4));
     }
 }

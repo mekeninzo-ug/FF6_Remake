@@ -1,5 +1,0 @@
-stage,map,x,y,gil,party,dialogue,event_cpu,battle,flag_0128
-00-backtracking-dialogue,19,38,50,3000,0:255:255:255,12,0xCC9B57,,0
-01-backtracking-returned,19,38,49,3000,0:255:255:255,,,,0
-02-guards-dialogue,19,38,38,3000,0:14:15:255,13,0xCC9B97,,0
-03-guards-battle-boundary,19,38,38,3000,0:14:15:255,,0xCC9BA4,1,0

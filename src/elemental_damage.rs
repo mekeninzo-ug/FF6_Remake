@@ -30,7 +30,7 @@ pub fn resolve(mut amount:u16,c:Context)->Result<Option<Contribution>,String> {
             else if c.weak&c.element!=0 && amount&0x8000==0 {amount<<=1;}
         }
     }
-    if c.special==4 {return Err("Ultima Weapon target-damage effect is not implemented".into());}
+    if c.special==4 {return Err("Ultima Weapon requires the full battle_target_damage attacker and graphics context".into());}
     Ok(Some(Contribution {amount,flags}))
 }
 /// FFFF means no accumulated value, rather than 65535 damage. Zero amounts

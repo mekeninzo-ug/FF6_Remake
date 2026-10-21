@@ -1,7 +1,0 @@
-{
-  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
-  "cases": 16384,
-  "target_instructions": 2716798,
-  "reference_kind": "complete actual target ChooseTarget, masking, presence, retarget and battle-type helpers with actual RNG; hardware multiply helper modeled; no full battle runtime",
-  "result": "pass"
-}

@@ -35,7 +35,7 @@ dialogue order, while general camera scripts, fades, other vehicles, and
 SPC music remain unimplemented. The title art is still a procedural
 placeholder; the source title splash and animation have not been reconstructed.
 Menus, battles, the rest of the event engine, and full progression are still
-incomplete. The release build and 148 Rust tests pass. Native opening captures
+incomplete. The release build and 187 Rust tests pass. Native opening captures
 and a three-frame Win32/GDI startup/shutdown smoke test also pass; original
 emulator behavior has not yet been compared.
 
@@ -43,9 +43,9 @@ emulator behavior has not yet been compared.
 
 | Milestone | Status |
 |---|---|
-| ROM/data map and title/intro slice | ROM/asset audits, 148 Rust tests, release build, native captures and Win32/GDI smoke test pass. Original title animation and emulator comparison remain open. |
+| ROM/data map and title/intro slice | ROM/asset audits, 187 Rust tests, release build, native captures and Win32/GDI smoke test pass. Original title animation and emulator comparison remain open. |
 | Field movement, dialogue, events, maps, menus and party state | Ten bundled maps, point/line exits and a 121-step native traversal work. Narshe triggers and normal NPC properties work through the first battle request. General events, battles, remaining maps, menus and party state remain incomplete. |
-| Battle, commands, magic, items, equipment, shops and progression | Target encounters, base character state, equipment, patched damage arithmetic and read-only gear/status pages work. Live combat, commands, equipment editing, shops and full progression remain incomplete. |
+| Battle, commands, magic, items, equipment, shops and progression | Target encounter/character/equipment data, damage, targeting, status handling, action queues, post-action reconciliation and retaliation scheduling have bounded ROM comparisons; read-only gear/status pages work. Live combat, commands, equipment editing, shops and full progression remain incomplete. |
 | World traversal, cutscenes, saving/loading, audio and ending | Prototype file save/load exists; target SRAM, full vehicle behavior, cutscenes, SPC music and ending are not implemented. |
 | Patched game playable from start to finish | Not complete. |
 
@@ -127,6 +127,15 @@ python tools/verify_battle_readiness.py
 python tools/verify_battle_menu_state.py
 python tools/verify_battle_after_effects.py
 python tools/verify_battle_morph.py
+python tools/verify_battle_after_action.py
+python tools/verify_battle_special_status.py
+python tools/verify_battle_presence.py
+python tools/verify_battle_retaliation.py
+python tools/verify_battle_damage_exec.py
+python tools/verify_battle_target_damage.py
+python tools/verify_battle_attack_history.py
+python tools/verify_battle_hit_resolution.py
+python tools/verify_battle_target_effects.py
 python tools/verify_characters.py
 python tools/verify_equipment.py
 python tools/verify_damage.py

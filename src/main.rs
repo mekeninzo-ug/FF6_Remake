@@ -31,6 +31,14 @@ mod battle_menu_state;
 mod battle_after_effects;
 mod battle_morph;
 mod battle_after_action;
+mod battle_special_status;
+mod battle_presence;
+mod battle_retaliation;
+mod battle_damage_exec;
+mod battle_target_damage;
+mod battle_attack_history;
+mod battle_hit_resolution;
+mod battle_target_effects;
 mod assets;
 mod magitek;
 mod player_motion;
@@ -47,6 +55,52 @@ mod platform_windows;
 fn main() {
     let mut args = std::env::args_os().skip(1);
     let action = args.next();
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-target-effects")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-target-effects"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_target_effects::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-hit-resolution")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-hit-resolution"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_hit_resolution::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-attack-history")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-attack-history"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_attack_history::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-target-damage")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-target-damage"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_target_damage::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-damage-exec")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-damage-exec"));
+        if let Err(error)=battle_damage_exec::capture(&directory) {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-retaliation")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-retaliation"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_retaliation::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-presence")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-presence"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_presence::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-special-status")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-special-status"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_special_status::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
     if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-after-action")) {
         let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-after-action"));
         let assets=assets::Assets::load();

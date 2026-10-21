@@ -1,8 +1,0 @@
-{
-  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
-  "monster_cases": 3456,
-  "immunity_cases_per_routine": 8192,
-  "target_instructions": 599167,
-  "reference_kind": "actual target monster working-stat projection, InvertEvade, AddHalf, FixImmuneStatus and UpdateImmuneStatus; no hooks; excludes complete actor loading",
-  "result": "pass"
-}

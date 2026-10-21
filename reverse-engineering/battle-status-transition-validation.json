@@ -1,7 +1,0 @@
-{
-  "native_executable_sha256": "BA95B19C3155340B61B72B0E23D58F3CFE7CE0E0D95A44D195736EA45D8ABEE9",
-  "cases_per_helper": 16384,
-  "target_instructions": 921271,
-  "reference_kind": "actual target InitStatusVars, CalcStatus snapshot, controlled post-handler store and ResetStatusMod; no hooks; individual status handlers are excluded",
-  "result": "pass"
-}
