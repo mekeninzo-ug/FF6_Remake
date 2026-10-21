@@ -40,12 +40,13 @@ fn retarget(c:&Context)->u16 {
     if side&0x40!=0 || side&0x80==0 {targets|=u16::from(15^c.enemy_characters);}
     targets
 }
-fn battle_type(c:&Context,s:&mut Selection,rng:&mut BattleRng,table:&RngTable) {
+fn battle_type(c:&Context,s:&mut Selection,rng:&mut BattleRng,table:&RngTable)->Result<(),String> {
     if c.restrictions&0x10!=0 {
         if c.restrictions&2!=0 && c.actors[c.actor].status12&0x2000==0 && rng.next(table)&1==0 {
+            if c.previous_attacker>=10 {return Err("Reflected targeting needs a modeled prior attacker when its preference branch reads that byte".into());}
             let previous=actor_mask(c.previous_attacker);if s.targets&previous!=0 {s.targets=previous;}
         }
-        return;
+        return Ok(());
     }
     let init=c.cursor&0x0c;
     if init&4==0 {
@@ -65,9 +66,10 @@ fn battle_type(c:&Context,s:&mut Selection,rng:&mut BattleRng,table:&RngTable) {
     if init!=4 && s.targets&255!=0 && s.targets&0xff00!=0 {
         if rng.next(table)&1==0 {s.targets&=0xff00;}else{s.targets&=255;}
     }
+    Ok(())
 }
 pub fn choose(c:&Context,s:&mut Selection,rng:&mut BattleRng,table:&RngTable)->Result<(),String> {
-    if c.actor>=10 || c.previous_attacker>=10 || c.battle_type>3 {return Err("Target selection context has invalid actor or battle type".into());}
+    if c.actor>=10 || c.battle_type>3 {return Err("Target selection context has invalid actor or battle type".into());}
     if c.cursor==2 {s.targets=actor_mask(c.actor);return Ok(());}
     mask(c,s);
     let mut new_target=c.restrictions&0x40!=0;
@@ -80,7 +82,7 @@ pub fn choose(c:&Context,s:&mut Selection,rng:&mut BattleRng,table:&RngTable)->R
         new_target=c.restrictions&4==0;
     }
     if new_target {s.targets=retarget(c);mask(c,s);if c.restrictions&8==0 {present(c,s);}}
-    battle_type(c,s,rng,table);
+    battle_type(c,s,rng,table)?;
     if c.restrictions&0x20!=0 && s.targets==0 {s.targets=c.backup;}
     if c.cursor&0x0c!=0 {return Ok(());}
     if c.cursor&0x20!=0 && rng.next(table)&1!=0 {return Ok(());}
@@ -95,7 +97,7 @@ pub fn capture(root:&Path,directory:&Path)->Result<(),String> {
         let start=next();let restrictions=next();let cursor=if case%31==0 {2}else{next()};
         let actors=std::array::from_fn(|_|Actor {present:next()&3!=0,status12:u16::from_le_bytes([next(),next()]),status34:u16::from_le_bytes([next(),next()]),charm_attacker:if next()&1!=0 {255}else{0}});
         let mut word=||u16::from_le_bytes([next(),next()]);let targets=if case%3==0 {0}else{word()};
-        let c=Context {actor:case%10,restrictions,cursor,actors,targettable:word(),valid:word(),revived:word(),jump_seize:word(),remove_jump:case%2==0,enemy_characters:(case%16) as u8,battle_type:(case/3%4) as u8,pincer_left:0x15,pincer_right:0x2a,previous_attacker:case/7%10,backup:word()};
+        let c=Context {actor:case%10,restrictions,cursor,actors,targettable:word(),valid:word(),revived:word(),jump_seize:word(),remove_jump:case%2==0,enemy_characters:(case%16) as u8,battle_type:(case/3%4) as u8,pincer_left:0x15,pincer_right:0x2a,previous_attacker:if restrictions&16==0 || cursor==2 {255}else{case/7%10},backup:word()};
         let flags=if case%7==0 {3}else{1};let mut selection=Selection {targets,mask_flags:flags};let mut rng=BattleRng {index:start};choose(&c,&mut selection,&mut rng,&table)?;
         let actors=c.actors.iter().map(|a|format!("{:02X}{:04X}{:04X}{:02X}",a.present as u8,a.status12,a.status34,a.charm_attacker)).collect::<String>();
         writeln!(rows,"{case},{start},{},{restrictions},{cursor},{targets},{flags},{},{},{},{},{},{},{},{},{},{},{},{actors},{},{},{}",c.actor,c.targettable,c.valid,c.revived,c.jump_seize,c.remove_jump as u8,c.enemy_characters,c.battle_type,c.pincer_left,c.pincer_right,c.previous_attacker,c.backup,selection.targets,selection.mask_flags,rng.index).unwrap();
@@ -113,6 +115,10 @@ pub fn capture(root:&Path,directory:&Path)->Result<(),String> {
     #[test]fn self_target_bypasses_masks_and_rng() {
         let mut c=context();c.cursor=2;c.targettable=0;
         let mut s=Selection {targets:0,mask_flags:2};let mut rng=BattleRng::default();choose(&c,&mut s,&mut rng,&RngTable::identity()).unwrap();assert_eq!((s.targets,s.mask_flags,rng.index),(0x400,2,0));
+    }
+    #[test]fn unused_previous_attacker_from_reflection_parameters_does_not_reject_ordinary_targeting() {
+        let mut c=context();c.previous_attacker=255;let mut s=Selection {targets:0,mask_flags:0};let mut rng=BattleRng::default();choose(&c,&mut s,&mut rng,&RngTable::identity()).unwrap();assert_eq!((s.targets,rng.index),(1,1));
+        c.cursor=2;s.targets=0;rng.index=0;choose(&c,&mut s,&mut rng,&RngTable::identity()).unwrap();assert_eq!((s.targets,rng.index),(0x400,0));
     }
     #[test]fn side_and_pincer_coin_branches_use_source_side_order() {
         let table=RngTable::identity();let mut c=context();c.battle_type=3;

@@ -26,16 +26,16 @@ Player movement now advances in continuous pixels, with patched Cancel-dash
 speed, smooth scrolling, and entrances checked after tile alignment.
 Movement consults target directional passability data. Point and line exits
 now connect the extracted Narshe and mine maps, including 128-column layouts.
-The geometry-only diagnostic follows 121 input steps across maps 19â†’39â†’41â†’42â†’41.
+The geometry-only diagnostic follows 121 input steps across maps 19 -> 39 -> 41 -> 42 -> 41.
 Live walking now activates target Narshe triggers, including the backtracking
 scene and first guards. Story play pauses at the first real battle request;
-the battle system and map startup events remain unimplemented.
+live combat and remaining map startup events remain unimplemented.
 This opening now follows source-backed map and
 dialogue order, while general camera scripts, fades, other vehicles, and
 SPC music remain unimplemented. The title art is still a procedural
 placeholder; the source title splash and animation have not been reconstructed.
 Menus, battles, the rest of the event engine, and full progression are still
-incomplete. The release build and 187 Rust tests pass. Native opening captures
+incomplete. The release build and 287 Rust tests pass. Native opening captures
 and a three-frame Win32/GDI startup/shutdown smoke test also pass; original
 emulator behavior has not yet been compared.
 
@@ -43,9 +43,9 @@ emulator behavior has not yet been compared.
 
 | Milestone | Status |
 |---|---|
-| ROM/data map and title/intro slice | ROM/asset audits, 187 Rust tests, release build, native captures and Win32/GDI smoke test pass. Original title animation and emulator comparison remain open. |
+| ROM/data map and title/intro slice | ROM/asset audits, 287 Rust tests, release build, native captures and Win32/GDI smoke test pass. Original title animation and emulator comparison remain open. |
 | Field movement, dialogue, events, maps, menus and party state | Ten bundled maps, point/line exits and a 121-step native traversal work. Narshe triggers and normal NPC properties work through the first battle request. General events, battles, remaining maps, menus and party state remain incomplete. |
-| Battle, commands, magic, items, equipment, shops and progression | Target encounter/character/equipment data, damage, targeting, status handling, action queues, post-action reconciliation and retaliation scheduling have bounded ROM comparisons; read-only gear/status pages work. Live combat, commands, equipment editing, shops and full progression remain incomplete. |
+| Battle, commands, magic, items, equipment, shops and progression | Target encounter/character/equipment data, damage, targeting, status handling, action queues, post-action reconciliation, retaliation scheduling, connected post-load battle initialization and the common attack-effect caller have bounded ROM comparisons; read-only gear/status pages work. Live combat, commands, equipment editing, shops and full progression remain incomplete. |
 | World traversal, cutscenes, saving/loading, audio and ending | Prototype file save/load exists; target SRAM, full vehicle behavior, cutscenes, SPC music and ending are not implemented. |
 | Patched game playable from start to finish | Not complete. |
 
@@ -55,7 +55,7 @@ library plus Windows User32/GDI APIs.
 
 ## Runtime approach
 
-The display target is the SNES 256Ã—224 field framebuffer, composed in Rust
+The display target is the SNES 256 x 224 field framebuffer, composed in Rust
 from the game's map, tile, palette, and actor data and presented through GDI
 with nearest-neighbor scaling. Keyboard input currently comes from Win32 key
 state polling. The planned audio path is a game-specific Rust port of FF6's
@@ -79,6 +79,9 @@ comparison material. Audio output and SPC playback are not implemented yet.
    python tools/extract_native_sprites.py
    python tools/extract_native_events.py
    python tools/extract_native_battle.py
+   python tools/extract_native_party.py
+   python tools/extract_native_monsters.py
+   python tools/extract_native_control.py
    python tools/extract_native_characters.py
    python tools/extract_native_items.py
    python tools/extract_native_magic.py
@@ -135,7 +138,22 @@ python tools/verify_battle_damage_exec.py
 python tools/verify_battle_target_damage.py
 python tools/verify_battle_attack_history.py
 python tools/verify_battle_hit_resolution.py
+python tools/verify_battle_action_damage.py
+python tools/verify_battle_attack_effect.py
+python tools/verify_battle_cast.py
+python tools/verify_battle_reflect.py
+python tools/verify_battle_counted.py
+python tools/verify_battle_item_effect.py
 python tools/verify_battle_target_effects.py
+python tools/verify_battle_inventory.py
+python tools/verify_battle_field_inventory.py
+python tools/verify_battle_command_init.py
+python tools/verify_battle_entry.py
+python tools/verify_battle_monster_load.py
+python tools/verify_battle_party.py
+python tools/verify_battle_character_load.py
+python tools/verify_battle_spell_lists.py
+python tools/verify_battle_spell_validation.py
 python tools/verify_characters.py
 python tools/verify_equipment.py
 python tools/verify_damage.py
@@ -178,3 +196,28 @@ python tools/verify_rom_assets.py
 
 The ROMs, IPS and extracted copyrighted content are local research inputs and
 must remain outside any distributable build.
+
+To run all 63 comparison scripts after building release, use
+`python tools/verify_native_all.py`. Logs are written under
+`target/native-validation/`; `--list` prints the checks without running them.
+These bounded comparisons do not prove complete game fidelity.
+
+The connected attack damage phase is documented in
+[the reverse-engineering record](reverse-engineering/battle-action-damage.md).
+Extract its local Control records with `python tools/extract_native_control.py`.
+Live combat remains unfinished.
+
+The common CalcAttackEffect caller now connects target selection through
+parameter storage; see [its evidence and limits](reverse-engineering/battle-attack-effect.md).
+
+Runic, Air Anchor and the patched base-damage caller are now connected;
+see [the caller evidence](reverse-engineering/battle-cast.md).
+
+Patched reflection now connects to casting; see
+[reflection evidence and limits](reverse-engineering/battle-reflection.md).
+
+Launcher and Super Ball counted effects now connect through damage; see
+[counted-attack evidence and limits](reverse-engineering/counted-attacks.md).
+
+Native item attack preparation now supplies source-backed working properties;
+see [item-preparation evidence and limits](reverse-engineering/item-attack-preparation.md).

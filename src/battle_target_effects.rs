@@ -1,42 +1,44 @@
-//! Confirmed RTS target entries and Steal C2/399E..3A3B, including TakeGil.
+//! RTS entries, Steal C2/399E..3A3B and Super Ball C2/3DB8..3DC4.
 use crate::{battle_rng::{BattleRng,RngTable},battle_targets::actor_mask};
 use std::{fs,path::Path,collections::BTreeMap};
 pub const NO_OPS:&[u8]=&[0,2,4,10,12,14,18,20,22,24,28,30,34,40,42,44,48,52,54,58,60,72,82,84,88,98,100,108,120,122,130,132,134,138,140,142,144,146,154,156,158,162];
-pub fn supported(raw:u8)->bool {NO_OPS.contains(&raw)||raw==164}
+pub fn supported(raw:u8)->bool {NO_OPS.contains(&raw)||raw==164||raw==148}
 #[derive(Clone,Copy,Debug)]pub struct Actor {pub items:[u8;2],pub obtained:u8,pub relic3:u8,pub monster_gil:u16}
 impl Default for Actor {fn default()->Self {Self {items:[255;2],obtained:255,relic3:0,monster_gil:0}}}
 #[derive(Clone,Debug,Default)]pub struct State {pub message:u8,pub item:u8,pub obtained_mask:u8,pub gil:u32,pub stolen_gil:u32,pub deliveries:Vec<(u8,u8)>}
-pub fn dispatch(raw:u8,attacker:usize,target:usize,levels:&[u8;10],actors:&mut[Actor;10],last_command:&mut u8,s:&mut State,rng:&mut BattleRng,table:&RngTable)->Result<(),String> {
+#[derive(Clone,Copy,Debug,PartialEq,Eq)]pub enum Output {None,SetBase(u16)}
+pub fn dispatch(raw:u8,attacker:usize,target:usize,levels:&[u8;10],actors:&mut[Actor;10],last_command:&mut u8,s:&mut State,rng:&mut BattleRng,table:&RngTable)->Result<Output,String> {
     if attacker>=10 || target>=10 {return Err("Target effect actor outside ten slots".into());}
-    if NO_OPS.contains(&raw) {return Ok(());}if raw!=164 {return Err(format!("Target effect {raw:02X} is not implemented"));}
+    if raw==148 {return Ok(Output::SetBase(u16::from((rng.next(table)&7)+1)<<8));}
+    if NO_OPS.contains(&raw) {return Ok(Output::None);}if raw!=164 {return Err(format!("Target effect {raw:02X} is not implemented"));}
     s.message=1;
     if attacker<4 {
-        if actors[target].items==[255;2] {*last_command=0;return Ok(());}
+        if actors[target].items==[255;2] {*last_command=0;return Ok(Output::None);}
         s.message=s.message.wrapping_add(1);
         let sum=u16::from(levels[attacker])+51;
         if sum<256 {
             let chance=i16::from(levels[attacker])+50-i16::from(levels[target]);
-            if chance<0 {*last_command=0;return Ok(());}
+            if chance<0 {*last_command=0;return Ok(Output::None);}
             if chance<128 {
                 let chance=if actors[attacker].relic3&1!=0 {(chance as u8).wrapping_mul(2)}else{chance as u8};
-                if rng.below(table,100)>=chance {*last_command=0;return Ok(());}
+                if rng.below(table,100)>=chance {*last_command=0;return Ok(Output::None);}
             }
         }
         let slot=usize::from(rng.next(table)>=32);let item=actors[target].items[slot];
-        if item==255 {*last_command=0;return Ok(());}
+        if item==255 {*last_command=0;return Ok(Output::None);}
         s.item=item;
         if actors[attacker].obtained!=255 {s.obtained_mask|=actor_mask(attacker) as u8;for slot in (0..4).rev() {let mask=actor_mask(slot) as u8;let pending=s.obtained_mask&mask!=0;s.obtained_mask&=!mask;if pending && actors[slot].obtained!=255 {s.deliveries.push((slot as u8,actors[slot].obtained));actors[slot].obtained=255;}}}
         actors[attacker].obtained=item;s.obtained_mask|=actor_mask(attacker) as u8;actors[target].items=[255;2];s.message=s.message.wrapping_add(1);
     }else {
         s.stolen_gil&=65535;s.message=s.message.wrapping_add(1);
-        if rng.next(table)>=192 {*last_command=0;return Ok(());}
+        if rng.next(table)>=192 {*last_command=0;return Ok(Output::None);}
         s.message=s.message.wrapping_sub(1);
         // The source forms the word level<<8 | 0x14; no multiply occurs.
         let requested=(u16::from(levels[attacker])<<8)|20;let taken=s.gil.min(u32::from(requested));s.gil-=taken;
-        if taken==0 {*last_command=0;return Ok(());}
+        if taken==0 {*last_command=0;return Ok(Output::None);}
         s.stolen_gil=taken;actors[attacker].monster_gil=actors[attacker].monster_gil.saturating_add(taken as u16);s.message=63;
     }
-    Ok(())
+    Ok(Output::None)
 }
 pub(crate) fn snapshot(actors:&[Actor;10],s:&State,levels:&[u8;10],commands:&[u8;10],rng:&BattleRng)->String {
     let mut m=BTreeMap::<u32,u8>::new();let mut put=|addr:u32,val:u32,width:usize|{for i in 0..width {m.insert(addr+i as u32,(val>>(i*8)) as u8);}};

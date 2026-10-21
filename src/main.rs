@@ -39,6 +39,20 @@ mod battle_target_damage;
 mod battle_attack_history;
 mod battle_hit_resolution;
 mod battle_target_effects;
+mod battle_inventory;
+mod battle_command_init;
+mod battle_spell_validation;
+mod battle_spell_lists;
+mod battle_party;
+mod battle_character_load;
+mod battle_monster_load;
+mod battle_entry;
+mod battle_action_damage;
+mod battle_attack_effect;
+mod battle_cast;
+mod battle_reflect;
+mod battle_counted;
+mod battle_item_effect;
 mod assets;
 mod magitek;
 mod player_motion;
@@ -55,6 +69,94 @@ mod platform_windows;
 fn main() {
     let mut args = std::env::args_os().skip(1);
     let action = args.next();
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-item-effect")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-item-effect"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_item_effect::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-counted")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-counted"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_counted::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-reflect")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-reflect"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_reflect::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-cast")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-cast"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_cast::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-attack-effect")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-attack-effect"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_attack_effect::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-action-damage")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-action-damage"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_action_damage::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-entry")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-entry"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_entry::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-monster-load")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-monster-load"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_monster_load::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-character-load")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-character-load"));
+        if let Err(error)=battle_character_load::capture(&directory) {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-party")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-party"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_party::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-spell-lists")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-spell-lists"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_spell_lists::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-spell-validation")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-spell-validation"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_spell_validation::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-command-init")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-command-init"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_command_init::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-field-inventory")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-field-inventory"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_inventory::capture_field(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
+    if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-inventory")) {
+        let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-inventory"));
+        let assets=assets::Assets::load();
+        let result=assets.root.as_ref().ok_or_else(||"Asset root unavailable".to_string()).and_then(|root|battle_inventory::capture(root,&directory));
+        if let Err(error)=result {eprintln!("{error}");std::process::exit(1);}return;
+    }
     if action.as_deref()==Some(std::ffi::OsStr::new("--capture-battle-target-effects")) {
         let directory=args.next().map(std::path::PathBuf::from).unwrap_or_else(||std::path::PathBuf::from("reverse-engineering/captures/native-battle-target-effects"));
         let assets=assets::Assets::load();
